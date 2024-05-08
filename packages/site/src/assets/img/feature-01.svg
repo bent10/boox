@@ -1,0 +1,30 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="48"
+  height="48"
+  viewBox="0 0 48 48"
+>
+  <g>
+    <circle cx="24" cy="24" r="23" fill="#7ed3dd"></circle>
+    <circle cx="24" cy="24" r="21" fill="#dcf6f9"></circle>
+    <circle cx="12.5" cy="32.5" r="1.5" fill="#ce5a7d"></circle>
+    <circle cx="19.5" cy="39.5" r="1.5" fill="#23be98"></circle>
+    <circle cx="13.5" cy="12.5" r="1.5" fill="#23be98"></circle>
+    <path
+      d="M9.168,20.445l-2,3a1,1,0,0,0,1.664,1.11l2-3a1,1,0,0,0-1.664-1.11Z"
+      fill="#ce5a7d"
+    ></path>
+    <circle cx="18" cy="20" r="2" fill="#23be98"></circle>
+    <circle cx="23" cy="10" r="3" fill="#ce5a7d"></circle>
+    <circle cx="34" cy="14" r="2" fill="#23be98"></circle>
+    <path
+      d="M33,30a1,1,0,0,1-.707-.293l-2-2a1,1,0,0,1,1.414-1.414l2,2A1,1,0,0,1,33,30Z"
+      fill="#ce5a7d"
+    ></path>
+    <circle cx="27" cy="31" r="2" fill="#23be98"></circle>
+    <path
+      d="M46.707,43.879,38.34,35.512a10.008,10.008,0,1,0-2.828,2.828l8.367,8.367a1,1,0,0,0,1.414,0l1.414-1.414A1,1,0,0,0,46.707,43.879ZM22,30a8,8,0,1,1,8,8A8,8,0,0,1,22,30Z"
+      fill="#444"
+    ></path>
+  </g>
+</svg>

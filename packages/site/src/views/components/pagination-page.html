@@ -1,0 +1,61 @@
+<script props>
+  const { prev, next, meta, isLastPage } = props
+  const hasPrev = !!prev.stem
+  const hasNext = !!next.stem
+
+  const getText = route => {
+    if (!route.stem) return ""
+
+    const routeMeta = meta[route.stem]
+    if (routeMeta && routeMeta.text) return routeMeta.text
+
+    const segments = route.stem.split("/").slice(1)
+    const lastSegment = String(
+      segments.length ? segments.pop() : route.stem
+    ).replace(/\-/g, " ")
+
+    return (
+      lastSegment.slice(0, 1).toUpperCase() + lastSegment.slice(1).toLowerCase()
+    )
+  }
+
+  module.exports = {
+    isLastPage,
+    hasPrev,
+    hasNext,
+    prev,
+    next,
+    prevText: getText(prev),
+    nextText: getText(next)
+  }
+</script>
+
+<ui:flex class="mb-5 py-2" gap="4">
+  <if condition="hasPrev">
+    <ui:button
+      href="{{prev.url}}"
+      class="py-3 flex-fill border text-start focus-ring"
+    >
+      <small class="text-body-secondary">
+        <ui:icon name="arrow-left"></ui:icon>
+        Prev page
+      </small>
+      <br />
+      {{prevText}}
+    </ui:button>
+  </if>
+
+  <if condition="hasNext && !isLastPage">
+    <ui:button
+      href="{{next.url}}"
+      class="py-3 flex-fill border text-end focus-ring"
+    >
+      <small class="text-body-secondary">
+        Next page
+        <ui:icon name="arrow-right"></ui:icon>
+      </small>
+      <br />
+      {{nextText}}
+    </ui:button>
+  </if>
+</ui:flex>

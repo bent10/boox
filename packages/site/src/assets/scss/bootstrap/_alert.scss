@@ -1,0 +1,18 @@
+// Generate contextual modifier classes for colorizing the alert
+@each $state, $color in $theme-colors {
+  .alert-#{$state} {
+    @include cssvar("alert-color", use-cssvar(#{$state}-text-emphasis));
+    @include cssvar("alert-bg", rgba($color, 0.2));
+    @include cssvar("alert-border-color", $color);
+    @include cssvar("alert-link-color", use-cssvar(#{$state}-text-emphasis));
+
+    code {
+      @include cssvar("code-color", use-cssvar("alert-link-color"));
+      @include cssvar("code-bg", use-cssvar("alert-bg"));
+    }
+
+    svg {
+      @include cssvar("secondary-color", use-cssvar("alert-color"));
+    }
+  }
+}

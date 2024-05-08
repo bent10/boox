@@ -1,0 +1,31 @@
+<script props>
+  const { defaultIcon = "sun" } = props
+
+  module.exports = {
+    defaultIcon: getIconSvg(defaultIcon)
+  }
+</script>
+
+<ui:dropdown>
+  <ui:dropdown.toggle class="focus-ring" id="theme-toggler">
+    {{~defaultIcon~}}
+  </ui:dropdown.toggle>
+  <ui:dropdown.menu class="px-2" align="end">
+    <ui:dropdown.item
+      as="button"
+      class="rounded"
+      data-bs-theme-switcher="light"
+    >
+      <ui:icon name="sun" />
+      <span class="ms-2">Light</span>
+    </ui:dropdown.item>
+    <ui:dropdown.item as="button" class="rounded" data-bs-theme-switcher="dark">
+      <ui:icon name="moon" />
+      <span class="ms-2">Dark</span>
+    </ui:dropdown.item>
+    <ui:dropdown.item as="button" class="rounded" data-bs-theme-switcher="auto">
+      <ui:icon name="l-settings" />
+      <span class="ms-2">Auto</span>
+    </ui:dropdown.item>
+  </ui:dropdown.menu>
+</ui:dropdown>

@@ -1,0 +1,46 @@
+@use "sass:math";
+
+h1,
+.h1,
+h2,
+.h2 {
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  padding-top: 1em;
+  margin-top: 2em;
+  border-top: 1px solid use-cssvar("border-color");
+}
+
+h3 {
+  margin-top: 1.6em;
+  letter-spacing: 0.01em;
+}
+
+[class^="display-"] {
+  letter-spacing: -1.5px;
+}
+
+li > ul:not(.nav) {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-underline-offset: $icon-link-underline-offset;
+  // text-decoration-style: wavy;
+  // text-decoration-color: rgba($link-color, 0.5);
+}
+
+code {
+  @include cssvar("code-bg", rgba(use-cssvar("secondary-bg-rgb"), 1));
+
+  padding: 3px 6px;
+  background-color: use-cssvar("code-bg");
+  user-select: all;
+  @include border-radius(calc(use-cssvar("border-radius-sm") / 2));
+}
+
+details {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,40 @@
+.bg-gradient-x {
+  @include cssvar(to, use-cssvar(body-color));
+  @include cssvar(via, use-cssvar(primary));
+  @include cssvar(from, use-cssvar(body-color));
+
+  background-image: linear-gradient(
+    to right,
+    use-cssvar(from) 0%,
+    use-cssvar(via) 30%,
+    use-cssvar(to) 70%
+  );
+}
+
+.bg-gradient-fn-1 {
+  background-image: repeating-conic-gradient(
+    from 75deg at 70% 40%,
+    rgba(var(--bs-secondary-bg-rgb), 0.2) 15%,
+    rgba(var(--bs-primary-rgb), 0.2) 45%
+  );
+}
+
+.bg-gradient-fn-2 {
+  background-image: repeating-linear-gradient(
+    237deg,
+    rgba(var(--bs-secondary-bg-rgb), 0.2) 31%,
+    rgba(var(--bs-primary-rgb), 0.1) 93%
+  );
+}
+
+.bg-clip-text {
+  color: transparent;
+  background-clip: text;
+}
+
+.shadow-neon {
+  @include cssvar(shadow-radius, 0 0.5rem 1rem);
+  @include cssvar(shadow-color, rgba(use-cssvar(primary-rgb), 0.5));
+
+  box-shadow: use-cssvar(shadow-radius) use-cssvar(shadow-color);
+}

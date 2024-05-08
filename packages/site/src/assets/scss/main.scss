@@ -1,0 +1,50 @@
+@import "./core";
+
+// Layout & components
+
+/*! purgecss start ignore */
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+
+/*! purgecss end ignore */
+
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/offcanvas";
+@import "~bootstrap/scss/helpers";
+
+// Custom bootstrap components
+@import "./bootstrap/type";
+@import "./bootstrap/table";
+@import "./bootstrap/nav";
+@import "./bootstrap/navbar";
+@import "./bootstrap/alert";
+@import "./bootstrap/offcanvas";
+@import "./bootstrap/helpers";
+
+// Extended components
+@import "./extended/icons";
+@import "./extended/sticker";
+@import "./extended/highlight";
+@import "./extended/code-group";
+
+// Utilities
+@import "~bootstrap/scss/utilities/api";

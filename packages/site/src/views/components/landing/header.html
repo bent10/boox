@@ -1,0 +1,31 @@
+<ui:navbar class="py-4" expand="sm">
+  <ui:container fluid="md" class="mw-xl-4">
+    <ui:button
+      class="ms-n2 ms-md-0 me-1 d-sm-none"
+      toggle="collapse"
+      target="#navbar-nav"
+    >
+      <ui:icon class="align-text-top" name="menu" size="20" />
+    </ui:button>
+
+    <ui:navbar.brand
+      class="me-auto d-flex align-items-center text-decoration-underline text-primary rounded focus-ring"
+      href="{{env.base}}"
+    >
+      <ui:logo color="body-color" accent="link-color" size="32"></ui:logo>
+      <span class="my-0 ms-2 text-body-emphasis h3 fw-bold">Boox</span>
+    </ui:navbar.brand>
+
+    <ui:navbar.collapse id="navbar-nav" class="order-last order-sm-0">
+      <ui:navbar-nav class="ms-auto py-3 py-sm-0" matter="{{matter}}" />
+    </ui:navbar.collapse>
+
+    <ui:flex class="me-n1 me-md-n3" order="sm-2">
+      <ui:vr class="mx-2"></ui:vr>
+      <ui:theme-toggler></ui:theme-toggler>
+      <ui:button class="focus-ring" href="https:{{repo}}">
+        <ui:icon name="logo-github" />
+      </ui:button>
+    </ui:flex>
+  </ui:container>
+</ui:navbar>

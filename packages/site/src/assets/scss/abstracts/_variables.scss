@@ -1,0 +1,326 @@
+// Color system
+// ==================================================
+
+// scss-docs-start gray-color-variables
+$white: #fff;
+$gray-100: #f5f6f8;
+$gray-200: #d4d8e3;
+$gray-300: #b5bccd;
+$gray-400: #96a0b9;
+$gray-500: #7786a4;
+$gray-600: #586c90;
+$gray-700: #485773;
+$gray-800: #384358;
+$gray-900: #29303e;
+$black: #1b1e25;
+// scss-docs-end gray-color-variables
+
+// start color-variables
+$blue: #346cb0; // #2563eb
+$indigo: #6e5bbf;
+$purple: #6a4fca;
+$pink: #9a4b81;
+$red: #c03345;
+$orange: #c6371b;
+$yellow: #f7c46c;
+$green: #00816f;
+$teal: #007081;
+$cyan: #037ba3;
+// end color-variables
+
+// scss-docs-start theme-color-variables
+$primary: $blue;
+$secondary: $gray-100;
+$success: $teal;
+$info: $purple;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+// scss-docs-end theme-color-variables
+
+// Gradient
+// ==================================================
+
+$gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
+
+// Characters which are escaped by the escape-svg function
+$escaped-characters: (
+  ("<", "%3c"),
+  (">", "%3e"),
+  ("#", "%23"),
+  ("(", "%28"),
+  (")", "%29")
+);
+
+// Options
+// ==================================================
+
+$enable-caret: true;
+$enable-rounded: true;
+$enable-shadows: false;
+$enable-gradients: false;
+$enable-transitions: true;
+$enable-reduced-motion: true;
+$enable-smooth-scroll: true;
+$enable-grid-classes: true;
+$enable-container-classes: true;
+$enable-cssgrid: false;
+$enable-button-pointers: true;
+$enable-rfs: true;
+$enable-validation-icons: true;
+$enable-negative-margins: true;
+$enable-deprecation-messages: true;
+$enable-important-utilities: true;
+
+$enable-dark-mode: true;
+$color-mode-type: data; // `data` or `media-query`
+
+// Prefix for :root CSS variables
+
+$prefix: bs-;
+
+// Body
+// ==================================================
+
+$body-text-align: null;
+$body-color: $gray-700;
+$body-bg: $white;
+
+$body-secondary-color: $gray-500;
+$body-secondary-bg: $gray-100;
+
+$body-tertiary-color: $gray-600;
+$body-tertiary-bg: $gray-200;
+
+$body-emphasis-color: $gray-900;
+
+// Body dark
+$body-color-dark: $gray-300;
+$body-secondary-color-dark: rgba($body-color-dark, 0.5);
+$body-secondary-bg-dark: mix($gray-800, $gray-900, 50%);
+$body-tertiary-color-dark: rgba($body-color-dark, 0.75);
+$body-tertiary-bg-dark: $gray-800;
+
+// Spacers
+// ==================================================
+
+$spacer: 1rem;
+$spacers: (
+  0: $spacer * 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer * 0.75,
+  4: $spacer,
+  5: $spacer * 1.5,
+  6: $spacer * 2,
+  7: $spacer * 2.5,
+  8: $spacer * 3
+);
+
+// Position
+//
+// Define the edge positioning anchors of the position utilities.
+
+// scss-docs-start position-map
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%,
+  auto: auto
+) !default;
+// scss-docs-end position-map
+
+// Links
+// ==================================================
+
+$link-color: $primary;
+$link-decoration: underline;
+$link-shade-percentage: 10%;
+$link-hover-color: shade-color($link-color, 20%);
+$link-hover-decoration: underline;
+
+$stretched-link-pseudo-element: after;
+$stretched-link-z-index: 1;
+
+// Paragraphs
+// ==================================================
+
+$paragraph-margin-bottom: 1.25em;
+
+// Typography
+// ==================================================
+
+$font-size-base: 1rem;
+$font-size-sm: $font-size-base * 0.875;
+$font-size-lg: $font-size-base * 1.25;
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+$font-weight-base: $font-weight-normal;
+
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 1.75;
+
+$h1-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 1.5;
+$h3-font-size: $font-size-base * 1.25;
+$h4-font-size: $font-size-base * 1;
+$h5-font-size: $font-size-base * 0.9375;
+$h6-font-size: $font-size-base * 0.875;
+// scss-docs-end font-variables
+
+// scss-docs-start font-sizes
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+// scss-docs-end font-sizes
+
+// scss-docs-start headings-variables
+$headings-margin-bottom: 1.25rem;
+$headings-font-family: null;
+$headings-font-style: null;
+$headings-font-weight: 600;
+$headings-line-height: $line-height-sm;
+$headings-color: $gray-800;
+$headings-color-dark: $gray-200;
+
+// scss-docs-end headings-variables
+
+// scss-docs-start display-headings
+$display-font-sizes: (
+  1: $font-size-base * 5,
+  2: $font-size-base * 4.5,
+  3: $font-size-base * 4,
+  4: $font-size-base * 3.5,
+  5: $font-size-base * 3,
+  6: $font-size-base * 2.5
+);
+
+$display-font-family: null;
+$display-font-style: null;
+$display-font-weight: 800;
+$display-line-height: 1;
+// scss-docs-end display-headings
+
+// scss-docs-start type-variables
+$lead-font-size: $font-size-base * 1.25;
+$lead-font-weight: 300;
+
+$small-font-size: 0.875em;
+
+$sub-sup-font-size: 0.75em;
+
+$initialism-font-size: $small-font-size;
+
+$blockquote-margin-y: $spacer;
+$blockquote-font-size: $font-size-base * 1.25;
+$blockquote-footer-color: $body-secondary-color;
+$blockquote-footer-font-size: $small-font-size;
+
+$hr-opacity: 0.15;
+
+$legend-margin-bottom: $spacer * 0.5;
+$legend-font-size: $font-size-base * 1.5;
+$legend-font-weight: null;
+
+$dt-font-weight: $font-weight-bold;
+
+$list-inline-padding: $spacer * 0.5;
+
+$mark-padding: 0.1875em;
+$mark-color: shade-color($yellow, 60%);
+$mark-bg: tint-color($yellow, 80%);
+// scss-docs-end type-variables
+
+// Tables
+// ==================================================
+
+$table-color: use-cssvar(heading-color);
+
+// Components
+// ==================================================
+
+// scss-docs-start border-variables
+$border-width: 1px;
+$border-widths: (
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px
+);
+$border-color: tint-color($black, 87.5%);
+$border-color-translucent: rgba($black, 0.125);
+// scss-docs-end border-variables
+
+$component-active-color: $white;
+$component-active-bg: $primary;
+
+// custom variable for buttons, breadcrumbs, and navs
+$component-font-size: 0.9375rem !default;
+
+// Navs
+// ==================================================
+
+// scss-docs-start nav-variables
+$nav-link-padding-y: 0.5rem;
+$nav-link-padding-x: 1rem;
+$nav-link-font-size: $component-font-size;
+$nav-link-font-weight: $font-weight-medium;
+$nav-link-color: use-cssvar("body-secondary-color");
+$nav-link-hover-color: use-cssvar("link-color");
+$nav-link-disabled-color: rgba(use-cssvar("body-secondary-color-rgb"), 0.8);
+// scss-docs-end nav-variables
+
+// scss-docs-start custom-nav-variables
+$nav-indented-marker-size: 12px !default;
+$nav-indented-marker-size-half: round($nav-indented-marker-size / 2) !default;
+$nav-indented-marker-bg: $nav-link-hover-color !default;
+$nav-indented-marker-border: 3px solid use-cssvar(border-color) !default;
+
+$nav-toggle-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="#{$gray-500}" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>') !default;
+// scss-docs-end custom-nav-variables
+
+// Navbar
+// ==================================================
+
+$navbar-nav-link-padding-x: $nav-link-padding-x * 0.75;
+
+$navbar-light-active-color: rgba(use-cssvar("emphasis-color-rgb"), 0.85);
+
+// Offcanvas
+// ==================================================
+
+$offcanvas-horizontal-width: 18rem;
+
+// Code
+// ==================================================
+
+$code-font-size: $small-font-size;
+$code-color: $link-color;
+
+$kbd-padding-y: 0.1875rem;
+$kbd-padding-x: 0.375rem;
+$kbd-font-size: $code-font-size;
+$kbd-color: $gray-600;
+$kbd-bg: rgba(use-cssvar("emphasis-color-rgb"), 0.08);
+
+$pre-color: null;
+
+// Landmarks
+// ==================================================
+
+$sidebar-width: 15rem !default;

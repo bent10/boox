@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="{{lang}}" data-bs-theme="{{theme}}">
+  <head>
+    <ui:head.meta title="{{matter.title}}"></ui:head.meta>
+
+    <link rel="stylesheet" href="/assets/scss/main.scss" />
+    <stack name="styles"></stack>
+  </head>
+
+  <body class="overflow-x-hidden">
+    <ui:browsehappy></ui:browsehappy>
+
+    <ui:skipy></ui:skipy>
+
+    <header
+      class="bg-body-secondary bg-gradient-fn-1"
+      style="border-bottom-left-radius: 6rem"
+    >
+      <ui:landing.header></ui:landing.header>
+
+      <ui:landing.hero></ui:landing.hero>
+    </header>
+
+    <main class="py-8">
+      <ui:container as="section" class="py-8 mw-xl-4 text-center text-md-start">
+        <h2 class="visually-hidden">Features</h2>
+
+        <ui:row cols="1 md-2 lg-3">
+          <each loop="feature in matter.features.slice(0, 3)">
+            <ui:col class="py-4 py-lg-8">
+              <span
+                class="d-flex-inline p-1 rounded-circle bg-primary-subtle"
+                align="center"
+                justify="center"
+              >
+                <ui:icon name="{{feature.icon}}" size="48" />
+              </span>
+              <h3>{{feature.title}}</h3>
+              <p>{{feature.description}}</p>
+            </ui:col>
+          </each>
+        </ui:row>
+      </ui:container>
+
+      <ui:container as="section" class="mw-xl-4">
+        <ui:row
+          class="px-4 px-sm-8 py-8 bg-body-secondary bg-gradient-fn-1 align-items-center"
+          cols="1 lg-2"
+          style="
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 6rem;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 6rem;
+          "
+        >
+          <ui:col class="mb-4 pe-lg-6">
+            <h2 class="mt-0 pt-md-0 border-0 display-6">
+              The ideal choice for a wide range of applications
+            </h2>
+            <p class="lead">
+              Powering search functionality in websites, e-commerce platforms,
+              document management systems, facilitating knowledge discovery, and
+              more!
+            </p>
+            <ui:icon-link
+              class="lead"
+              href="./guides/advanced-search.html"
+              icon="arrow-sm-right"
+              icon-placement="after"
+              hoverable
+            >
+              Explore advanced search
+            </ui:icon-link>
+          </ui:col>
+
+          <ui:col class="p-4">
+            <each loop="feature in matter.features.slice(3)">
+              <ui:flex class="mt-2" align="start">
+                <div class="me-4 flex-shrink-0">
+                  <ui:icon name="{{feature.icon}}" size="24" />
+                </div>
+                <div>
+                  <h3 class="mt-0 mb-3">{{feature.title}}</h3>
+                  <p>{{feature.description}}</p>
+                </div>
+              </ui:flex>
+            </each>
+          </ui:col>
+        </ui:row>
+      </ui:container>
+
+      <ui:container as="section" class="py-4 py-lg-8 mw-xl-4">
+        <h2 class="pt-0 border-0 display-6">FAQs</h2>
+        <ui:row cols="1 lg-2" gap="8">
+          <each loop="faq in matter.faqs">
+            <ui:col>
+              <h3>{{faq.question}}</h3>
+              <p>{{~faq.answer~}}</p>
+            </ui:col>
+          </each>
+        </ui:row>
+      </ui:container>
+
+      <block name="content"></block>
+    </main>
+
+    <footer
+      class="pt-8 pb-4 bg-body-secondary bg-gradient-fn-1"
+      style="border-top-right-radius: 6rem; border-top-left-radius: 6rem"
+    >
+      <ui:container as="section" class="mw-xl-4">
+        <ui:flex class="flex-column flex-md-row" align="center">
+          <ui:nav as="nav" class="mb-4 me-md-auto" aria-label="Footer">
+            <ui:nav.link href="./guides/index.html">Guides</ui:nav.link>
+            <ui:nav.link href="./examples/index.html">Examples</ui:nav.link>
+            <ui:nav.link href="./cli.html">CLI</ui:nav.link>
+          </ui:nav>
+          <p class="text-center text-body-secondary">
+            &copy; {{new Date().getFullYear()}} Stilearning. All right reserved.
+          </p>
+        </ui:flex>
+      </ui:container>
+    </footer>
+
+    <ui:search.modal id="search-modal"></ui:search.modal>
+
+    <script type="module" src="/assets/js/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+tr td code {
+  white-space: nowrap;
+}
+
+.table-wrapper {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5rem;
+    height: 100%;
+    background: linear-gradient(
+      to left,
+      use-cssvar("body-bg") 0,
+      transparent 100%
+    );
+    z-index: 1;
+    pointer-events: none;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .table-wrapper {
+    &:after {
+      display: none;
+    }
+  }
+}

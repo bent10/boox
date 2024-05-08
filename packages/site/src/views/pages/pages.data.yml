@@ -1,0 +1,38 @@
+repo: //github.com/bent10/boox
+repoPath: bent10/boox
+examplePath: tree/main/examples
+
+homepage: //stilearning.com/boox
+
+demoHomepage: //stilearning.com/boox/demo
+
+npmPath: //www.npmjs.com/package/boox
+jsdelivrPath: //www.jsdelivr.com/package/npm/boox?tab=files&path=dist
+
+lang: en
+theme: dark
+
+matter:
+  layout: docs.html
+  block: content
+  titleTemplate: '%s - Boox'
+  toc: true
+  pagination: true
+
+navMeta:
+  'guides':
+    text: GUIDES
+  'guides/index':
+    text: Overview
+  'guides/api':
+    text: API
+  'examples':
+    text: EXAMPLES
+  'examples/index':
+    text: Integration
+  'examples/vue':
+    text: Vue.js
+  'examples/nextjs':
+    text: Next.js
+  'examples/express':
+    text: Express.js

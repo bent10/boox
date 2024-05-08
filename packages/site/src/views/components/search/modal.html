@@ -1,0 +1,37 @@
+<script props>
+  const { id, title } = props
+
+  module.exports = { id, title }
+</script>
+
+<ui:modal id="{{id}}" title="{{title}}" scrollable fullscreen="md">
+  <ui:form id="search-form" class="modal-header border-0" role="search">
+    <ui:search.input />
+  </ui:form>
+
+  <ui:modal.body id="search-results" class="d-md-none">
+    <ui:list-group id="results" class="mb-2" flush></ui:list-group>
+
+    <ui:pagination
+      id="results-pagination"
+      class="mb-0"
+      size="sm"
+      align="center"
+    />
+  </ui:modal.body>
+
+  <ui:modal.footer class="small">
+    <ul class="me-auto list-inline">
+      <li>
+        <kbd>esc</kbd>
+        <span class="text-muted">to close</span>
+      </li>
+    </ul>
+
+    <span class="text-muted">Search by</span>
+    <ui:icon-link href="https:{{repo}}" target="_blank">
+      <ui:logo color="body-color" accent="link-color"></ui:logo>
+      <span class="fw-bold text-body">Boox</span>
+    </ui:icon-link>
+  </ui:modal.footer>
+</ui:modal>

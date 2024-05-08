@@ -1,0 +1,5 @@
+@mixin cssvar($name, $value) {
+  @if $value != null {
+    --#{$prefix}#{$name}: #{$value};
+  }
+}

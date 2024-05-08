@@ -1,0 +1,64 @@
+{
+  "name": "boox-site",
+  "description": "Boox documentation site",
+  "version": "0.0.0-development",
+  "private": true,
+  "author": "Beni Arisandi (https://stilearning.com)",
+  "repository": "https://github.com/bent10/boox",
+  "homepage": "https://github.com/bent10/boox/tree/main/packages/site",
+  "keywords": [
+    "boox",
+    "documentation"
+  ],
+  "type": "module",
+  "files": [
+    "dist",
+    "changelog.md",
+    "readme.md"
+  ],
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "pretrain": "node ./labs/create-dataset.js",
+    "train": "boox-cli train ./labs/docs.json ./src/public",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview --host --open",
+    "types": "tsc -d --emitDeclarationOnly --outDir ./dist",
+    "lint": "tsc --noEmit && eslint . --cache --cache-location ../../node_modules/.eslint",
+    "format": "prettier . --write --cache-location ../../node_modules/.prettier --ignore-path ../../.prettierignore"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "clipboard": "^2.0.11"
+  },
+  "devDependencies": {
+    "@headless-route/vite": "^1.3.5",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@types/bootstrap": "^5.2.10",
+    "@types/moo": "^0.5.9",
+    "@types/stopword": "^2.0.3",
+    "autoprefixer": "^10.4.19",
+    "boox-cli": "^1.0.0",
+    "double-metaphone": "^2.0.1",
+    "fastest-levenshtein": "^1.0.16",
+    "github-slugger": "^2.0.0",
+    "marked": "^12.0.2",
+    "marked-alert": "^2.0.1",
+    "marked-directive": "^1.0.5",
+    "marked-plaintify": "^1.0.1",
+    "marked-shiki": "^1.1.0",
+    "metaphone": "^2.0.1",
+    "moo": "^0.5.2",
+    "posthtml": "^0.16.6",
+    "posthtml-bootstrap": "^1.0.3",
+    "posthtml-component": "^1.1.1",
+    "posthtml-extend": "^0.6.5",
+    "sass": "^1.76.0",
+    "shiki": "^1.4.0",
+    "stemmer": "^2.0.1",
+    "stophtml": "^1.0.2",
+    "stopword": "^3.0.1",
+    "vite-plugin-purge": "^1.0.3"
+  }
+}

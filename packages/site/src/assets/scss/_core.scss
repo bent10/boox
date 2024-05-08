@@ -1,0 +1,22 @@
+// functions first
+@import "~bootstrap/scss/functions";
+
+@import "./abstracts/functions";
+
+// default variable overrides
+@import "./abstracts/variables";
+
+// required Bootstrap stylesheets
+@import "~bootstrap/scss/variables";
+
+// default map overrides
+@import "./abstracts/maps";
+@import "./abstracts/mixins";
+
+// remainder of required parts
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+// utilities overrides
+@import "./abstracts/utilities";

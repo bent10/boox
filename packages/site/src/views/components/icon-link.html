@@ -1,0 +1,40 @@
+<script props>
+  const {
+    icon,
+    "icon-size": iconSize = "1em",
+    hoverable,
+    "hover-color-rgb": hoverColorRgb,
+    "hover-transform": hoverTransform,
+    "icon-placement": iconPlacement = "before"
+  } = props
+  const hasIcon = isString(icon)
+  const isHoverable = isEnabled(hoverable)
+  let css = ""
+
+  if (isHoverable && isString(hoverColorRgb)) {
+    css += `--bs-link-hover-color-rgb:${hoverColorRgb};`
+  }
+
+  if (isHoverable && isString(hoverTransform)) {
+    css += `--bs-icon-link-transform:${hoverTransform};`
+  }
+
+  module.exports = {
+    classes: clsx("icon-link", isHoverable && "icon-link-hover"),
+    css: css === "" ? null : css,
+    hasIcon,
+    icon,
+    iconSize,
+    iconPlacement
+  }
+</script>
+
+<a class="{{classes}}" style="{{css}}">
+  <if condition="hasIcon && iconPlacement === 'before'">
+    <ui:icon class="bi me-1" name="{{icon}}" size="{{iconSize}}"></ui:icon>
+  </if>
+  <children />
+  <if condition="hasIcon && iconPlacement === 'after'">
+    <ui:icon class="bi me-1" name="{{icon}}" size="{{iconSize}}"></ui:icon>
+  </if>
+</a>

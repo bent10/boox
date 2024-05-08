@@ -1,0 +1,20 @@
+<ui:flex class="gap-1 w-100 align-items-center">
+  <ui:form.group class="position-relative flex-fill">
+    <span
+      class="position-absolute top-50 start-0 ms-4 translate-middle-y text-muted"
+    >
+      <ui:icon name="search" />
+    </span>
+    <ui:form.control
+      id="search-query"
+      class="ps-8"
+      type="search"
+      placeholder="Search docs"
+      aria-label="Search docs"
+      lg
+    />
+  </ui:form.group>
+  <ui:form.group class="me-n3 d-block d-md-none">
+    <ui:button variant="link" data-bs-dismiss="modal">Cancel</ui:button>
+  </ui:form.group>
+</ui:flex>

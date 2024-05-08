@@ -1,0 +1,21 @@
+<script props>
+  const { navbar, items = [], meta = {}, role } = props
+  const ariaLabel = props["aria-label"]
+
+  module.exports = {
+    navbar: isEnabled(navbar),
+    content: createStackedNavItems(items, meta),
+    role,
+    ariaLabel
+  }
+</script>
+
+<ui:nav
+  class="mb-4"
+  navbar="{{navbar}}"
+  role="{{role}}"
+  aria-label="{{ariaLabel}}"
+  vertical
+>
+  {{~content~}}
+</ui:nav>

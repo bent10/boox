@@ -1,0 +1,47 @@
+<ui:container class="py-4 py-lg-8 mw-xl-4">
+  <ui:row cols="1 lg-2">
+    <ui:col class="py-lg-8">
+      <h1 class="display-4 bg-gradient-x bg-clip-text">{{matter.headline}}</h1>
+      <p class="lead">{{matter.subheadline}}</p>
+
+      <ui:flex class="mb-4" gap="5">
+        <ui:icon-link href="guides/getting-started.html">
+          Getting started
+        </ui:icon-link>
+        <ui:button
+          class="py-2 px-4 icon-link icon-link-hover"
+          variant="dark"
+          toggle="modal"
+          target="#search-modal"
+        >
+          Try it now
+          <ui:icon
+            class="bi ms-2"
+            accent="secondary-color"
+            name="arrow-right"
+          ></ui:icon>
+        </ui:button>
+      </ui:flex>
+    </ui:col>
+
+    <ui:col
+      class="position-relative mb-n6 pt-4 pt-lg-8 bg-circle-blur"
+      order="lg-last"
+    >
+      <div class="sticker px-4 ms-sm-8 px-sm-0 mb-n8" style="max-width: 360px">
+        <ui:img
+          class="position-lg-absolute mt-lg-n8 w-100 rounded-4 shadow-neon"
+          src="./assets/img/hero.png"
+          loading="lazy"
+          style="transform: rotate(-8deg)"
+        ></ui:img>
+        <ui:img
+          class="position-absolute mt-8 ms-0 ms-sm-8 ms-lg-n8 start-0 start-lg-50 w-100 rounded-4 shadow-lg"
+          src="./assets/img/hero-dark.png"
+          loading="lazy"
+          style="transform: rotate(-8deg)"
+        />
+      </div>
+    </ui:col>
+  </ui:row>
+</ui:container>

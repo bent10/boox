@@ -1,0 +1,17 @@
+.code-group {
+  margin-bottom: $spacer * 1.25;
+  border-top: use-cssvar("border-width") solid use-cssvar("border-color");
+  border-bottom: use-cssvar("border-width") solid use-cssvar("border-color");
+
+  .highlight {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .code-group {
+    border: 1px solid use-cssvar("border-color");
+    @include border-radius();
+  }
+}

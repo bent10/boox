@@ -1,0 +1,15 @@
+<script props>
+  const { color, accent, name, size = "1em" } = props
+
+  module.exports = {
+    name,
+    size,
+    color: isString(color) ? `var(--bs-${color})` : "currentColor",
+    accent: isString(accent)
+      ? `var(--bs-${accent})`
+      : "var(--bs-secondary-color)",
+    icon: getIcon(name)
+  }
+</script>
+
+{{~ icon ~}}

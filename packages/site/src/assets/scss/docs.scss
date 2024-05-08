@@ -1,0 +1,144 @@
+@import "core";
+
+:root {
+  @include cssvar(scroll-margin-top, 4.25rem);
+  @include cssvar("sidebar-width", $sidebar-width);
+
+  background: var(--bs-secondary-bg);
+}
+
+@include media-breakpoint-up(xxl) {
+  body,
+  #header {
+    background: linear-gradient(
+      to right,
+      rgba(var(--bs-secondary-bg-rgb), 1) 15rem,
+      rgba(var(--bs-secondary-bg-rgb), 0) 30%,
+      rgba(var(--bs-body-bg-rgb), 1) 50%
+    );
+  }
+}
+
+#header {
+  z-index: $zindex-fixed + 1;
+  background-color: rgba(use-cssvar("body-bg-rgb"), 0.5);
+  backdrop-filter: blur(4px);
+
+  .container-xxl {
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 2.5rem;
+      background: linear-gradient(
+        to bottom,
+        use-cssvar("body-bg") 0,
+        transparent 100%
+      );
+      z-index: 1;
+      pointer-events: none;
+    }
+  }
+}
+
+#sidebar,
+#aside {
+  flex: 0 1 use-cssvar("sidebar-width");
+}
+
+#toc {
+  flex-basis: auto;
+  max-width: calc(
+    use-cssvar("breakpoint-md") - calc(use-cssvar("gutter-x") * 2)
+  );
+
+  @include media-breakpoint-up(xl) {
+    flex: 0 1 use-cssvar("sidebar-width");
+  }
+}
+
+#content {
+  max-width: calc(
+    use-cssvar("breakpoint-md") - calc(use-cssvar("gutter-x") * 2)
+  );
+
+  @include media-breakpoint-between(xl, xxl) {
+    max-width: calc(
+      use-cssvar("breakpoint-md") - calc(use-cssvar("gutter-x") * 3.75)
+    );
+  }
+}
+
+[id] {
+  scroll-margin-top: use-cssvar(scroll-margin-top);
+}
+
+// In-page anchor
+//
+// This CSS rule defines styles for self-links within headings, which are often used
+// in documentation or articles to link to specific sections of a page. When you hover
+// over a heading with a .self-link, it reveals a linked icon that aids navigation.
+
+h2,
+h3 {
+  &[id] {
+    position: relative;
+
+    > .self-link {
+      @include cssvar("self-link-content", "'#'");
+
+      margin-left: 0.5rem;
+      font-size: $small-font-size;
+      color: use-cssvar(secondary-color);
+      opacity: 0;
+      text-decoration: none;
+      @include transition($transition-fade);
+
+      &:target,
+      &:hover,
+      &:focus {
+        color: use-cssvar(link-hover-color);
+        opacity: 1;
+      }
+
+      &::after {
+        content: use-cssvar(self-link-content);
+        padding-right: 0.25rem;
+        padding-left: 0.25rem;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      > .self-link {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  h2,
+  h3 {
+    &[id] {
+      position: relative;
+
+      > .self-link {
+        position: absolute;
+        left: 0;
+        margin-top: 0.125em;
+        margin-left: -1.25em;
+      }
+    }
+  }
+}
+
+// helpers
+
+.notransition {
+  transition: none !important;
+}

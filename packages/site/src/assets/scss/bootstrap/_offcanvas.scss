@@ -1,0 +1,18 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+  $next: breakpoint-next($breakpoint, $grid-breakpoints);
+  $infix: breakpoint-infix($next, $grid-breakpoints);
+
+  .offcanvas#{$infix} {
+    @include media-breakpoint-up($next) {
+      &.sticky-top,
+      &.sticky-sm-top,
+      &.sticky-md-top,
+      &.sticky-lg-top,
+      &.sticky-xl-top,
+      &.sticky-xxl-top {
+        top: use-cssvar("header-height", 0);
+        height: calc(100vh - use-cssvar("header-height", 0));
+      }
+    }
+  }
+}

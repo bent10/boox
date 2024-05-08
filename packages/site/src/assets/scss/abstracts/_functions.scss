@@ -1,0 +1,7 @@
+@function use-cssvar($name, $fallback: null) {
+  @if $fallback {
+    @return var(--#{$prefix}#{$name}, $fallback);
+  }
+
+  @return var(--#{$prefix}#{$name});
+}

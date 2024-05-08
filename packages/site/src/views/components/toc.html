@@ -1,0 +1,13 @@
+<script props>
+  const { title = "On this page", headings = [] } = props
+
+  module.exports = { title, content: generateToc(headings) }
+</script>
+
+<aside id="toc">
+  <h6 class="ms-n1 text-body text-uppercase">
+    <ui:icon name="compass" size="1.25em"></ui:icon>
+    {{title}}
+  </h6>
+  <nav aria-label="Table of content">{{~ content ~}}</nav>
+</aside>

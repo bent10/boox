@@ -1,0 +1,41 @@
+<ui:navbar as="header" id="header" expand="lg" fixed="top" class="py-0">
+  <ui:container class="px-1 px-md-3" fluid="xxl">
+    <ui:flex
+      align="center"
+      justify="between"
+      class="py-3 border-bottom w-100"
+      style="margin-left: var(--bs-sidebar-width)"
+    >
+      <ui:button class="me-1 d-lg-none" toggle="offcanvas" target="#sidebar">
+        <ui:icon class="align-text-top" name="menu" size="20" />
+      </ui:button>
+
+      <ui:navbar.brand
+        class="d-flex d-lg-none align-items-center text-body rounded focus-ring"
+        href="{{env.base}}"
+      >
+        <ui:logo accent="primary" size="28"></ui:logo>
+        <span class="my-0 ms-2 text-body-emphasis h3 fw-bold">Boox</span>
+      </ui:navbar.brand>
+
+      <ui:search.button
+        class="ms-auto me-2 d-md-flex align-items-md-center"
+        target="#search-modal"
+      ></ui:search.button>
+
+      <ui:navbar.collapse id="navbar-nav">
+        <ui:navbar-nav class="ms-auto" matter="{{matter}}" />
+      </ui:navbar.collapse>
+
+      <ui:flex>
+        <ui:vr class="mx-2"></ui:vr>
+        <ui:theme-toggler></ui:theme-toggler>
+        <ui:button class="focus-ring" href="https:{{repo}}">
+          <ui:icon name="logo-github" />
+        </ui:button>
+      </ui:flex>
+    </ui:flex>
+  </ui:container>
+</ui:navbar>
+
+<ui:search.modal id="search-modal"></ui:search.modal>

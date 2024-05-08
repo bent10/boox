@@ -1,0 +1,155 @@
+$highlight-padding-y: $spacer !default;
+$highlight-padding-x: $spacer !default;
+$highlight-bg: use-cssvar("secondary-bg") !default;
+$highlight-border: use-cssvar("border-width") solid use-cssvar("border-color") !default;
+
+.highlight {
+  position: relative;
+  margin-bottom: $spacer * 1.25;
+  background-color: $highlight-bg;
+  border-top: use-cssvar("border-width") solid use-cssvar("border-color");
+  border-bottom: use-cssvar("border-width") solid use-cssvar("border-color");
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    height: 100%;
+    background: linear-gradient(to left, $highlight-bg 0, transparent 100%);
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .shiki {
+    background-color: inherit !important;
+    @include border-radius();
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .highlight {
+    border: $highlight-border;
+    @include border-radius();
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.highlight-collapsed {
+  position: relative;
+  max-height: 18rem;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(0deg, $highlight-bg 2%, transparent 100%);
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+}
+
+.shiki {
+  position: relative;
+  margin-bottom: 0;
+  padding: $highlight-padding-y $highlight-padding-x;
+
+  &.has-focused .line:not(.focused) {
+    transition:
+      filter 0.35s ease 0s,
+      opacity 0.35s ease 0s;
+    opacity: 0.7;
+    filter: blur(1.5px);
+  }
+
+  &:hover {
+    &.has-focused .line:not(.focused) {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+  > code {
+    padding: 0;
+    background-color: transparent;
+    user-select: initial;
+  }
+
+  .highlighted,
+  .diff {
+    width: calc(100% + #{$highlight-padding-x * 2});
+    display: inline-block;
+    transition: background-color 0.5s ease 0s;
+    margin: 0px -#{$highlight-padding-x};
+    padding: 0px $highlight-padding-x;
+  }
+
+  .highlighted {
+    background-color: rgba(use-cssvar("primary-rgb"), 0.1);
+
+    &.error {
+      background-color: use-cssvar("danger-bg-subtle");
+    }
+
+    &.warning {
+      background-color: use-cssvar("warning-bg-subtle");
+    }
+  }
+
+  .diff {
+    &::before {
+      position: absolute;
+      left: $highlight-padding-x * 0.5;
+    }
+
+    &.add {
+      background-color: use-cssvar("success-bg-subtle");
+
+      &::before {
+        content: "+";
+        color: use-cssvar("success");
+      }
+    }
+
+    &.remove {
+      background-color: use-cssvar("danger-bg-subtle");
+      opacity: 0.7;
+
+      &::before {
+        content: "-";
+        color: use-cssvar("danger");
+      }
+    }
+  }
+
+  .highlighted-word {
+    position: relative;
+    padding: 1px 3px;
+    margin: -1px -3px;
+    background-color: rgba(use-cssvar("primary-rgb"), 0.15);
+    border: 1px solid rgba(use-cssvar("primary-rgb"), 0.4);
+    @include border-radius();
+  }
+}
+
+[data-bs-theme="dark"] .shiki,
+[data-bs-theme="dark"] .shiki span {
+  color: var(--shiki-dark) !important;
+  /* Optional, if you also want font styles */
+  // font-style: var(--shiki-dark-font-style) !important;
+  // font-weight: var(--shiki-dark-font-weight) !important;
+  // text-decoration: var(--shiki-dark-text-decoration) !important;
+}
+
+.code-group {
+  .highlight {
+    margin-bottom: 0;
+    border-width: 0;
+    @include border-top-radius(0);
+  }
+}

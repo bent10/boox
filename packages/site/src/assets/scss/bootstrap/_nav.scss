@@ -1,0 +1,105 @@
+// Custom style
+
+.nav {
+  line-height: 1.6;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+
+  &[aria-expanded="true"] {
+    color: use-cssvar("nav-link-hover-color");
+  }
+
+  &.active {
+    color: $nav-link-hover-color;
+  }
+}
+
+// Extended styles
+
+.nav-indented {
+  position: relative;
+  margin-left: calc(use-cssvar(nav-link-padding-x) + 0.5em);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: $border-width;
+    height: 100%;
+    background-color: use-cssvar("border-color-translucent");
+  }
+
+  .navbar-nav & {
+    margin-left: calc(use-cssvar(nav-link-padding-x) - 0.5em);
+  }
+
+  > .nav-link,
+  > .nav-item > .nav-link {
+    padding-left: calc(use-cssvar(nav-link-padding-x) + 0.5em);
+
+    &.active::before {
+      content: "";
+      position: relative;
+      margin-right: calc(use-cssvar(nav-link-padding-x) + $border-width);
+      margin-left: calc(
+        -1 * use-cssvar(nav-link-padding-x) - 1em - $border-width
+      );
+      font-size: $nav-indented-marker-size;
+      width: 1em;
+      height: 1em;
+      border-radius: 0.5em;
+      background-color: $nav-indented-marker-bg;
+      border: $nav-indented-marker-border;
+      z-index: 2;
+    }
+  }
+}
+
+.nav-header {
+  display: flex;
+  margin: $spacer use-cssvar("nav-link-padding-x") 0;
+  padding: use-cssvar("nav-link-padding-y") 0;
+  color: use-cssvar("secondary-color");
+  font-size: $sub-sup-font-size;
+  line-height: $line-height-base;
+  letter-spacing: 0.5px;
+
+  &.border-top {
+    padding-top: $spacer;
+  }
+}
+
+.nav-toggle {
+  position: relative;
+
+  .navbar-nav & {
+    &::after {
+      right: use-cssvar("navbar-nav-link-padding-x");
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: use-cssvar("nav-link-padding-x");
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.125em;
+    background-image: escape-svg($nav-toggle-icon);
+    background-repeat: no-repeat;
+    background-size: 1em 1em;
+    @include transition(transform 0.3s ease);
+  }
+
+  &[aria-expanded="true"]::after {
+    transform: rotate(90deg);
+  }
+
+  &[aria-expanded="false"]::after {
+    transform: rotate(0);
+  }
+}

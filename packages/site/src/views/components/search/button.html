@@ -1,0 +1,21 @@
+<script props>
+  const { class: classes, target } = props
+
+  module.exports = { classes, target }
+</script>
+
+<ui:button
+  class="{{classes}} bg-body-secondary focus-ring notransition"
+  toggle="modal"
+  target="{{target}}"
+  aria-label="Search docs"
+>
+  <ui:icon name="search"></ui:icon>
+  <span
+    class="ms-2 text-start text-muted d-none d-md-inline-block"
+    style="width: 10rem"
+  >
+    Search
+  </span>
+  <kbd class="ms-auto d-none d-md-inline-block">/</kbd>
+</ui:button>

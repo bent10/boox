@@ -1,0 +1,19 @@
+<script props>
+  const { top = "0", start = "0", middle, size = "20rem", style } = props
+
+  module.exports = {
+    size,
+    classes: clsx(
+      "position-absolute user-select-none pe-none bg-circle-blur",
+      `top-${top}`,
+      `start-${start}`,
+      isEnabled(middle) && "translate-middle"
+    ),
+    style
+  }
+</script>
+
+<div
+  class="{{classes}}"
+  style="width: {{size}}; height: {{size}};{{style}}"
+></div>

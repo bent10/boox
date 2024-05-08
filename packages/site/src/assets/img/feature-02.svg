@@ -1,0 +1,31 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="48"
+  height="48"
+  viewBox="0 0 48 48"
+>
+  <g>
+    <path
+      d="M24,41a1,1,0,0,1-.707-.293l-16-16a1,1,0,0,1,0-1.414l16-16a1,1,0,0,1,1.414,0l16,16a1,1,0,0,1,0,1.414l-16,16A1,1,0,0,1,24,41ZM9.414,24,24,38.586,38.586,24,24,9.414Z"
+      fill="#a4dae0"
+    ></path>
+    <path d="M8,13A5,5,0,1,0,3,8,5.006,5.006,0,0,0,8,13Z" fill="#867fe8"></path>
+    <path
+      d="M40,13a5,5,0,1,0-5-5A5.006,5.006,0,0,0,40,13Z"
+      fill="#867fe8"
+    ></path>
+    <path
+      d="M24,19a5,5,0,1,0,5,5A5.006,5.006,0,0,0,24,19Z"
+      fill="#867fe8"
+    ></path>
+    <path d="M8,35a5,5,0,1,0,5,5A5.006,5.006,0,0,0,8,35Z" fill="#867fe8"></path>
+    <path
+      d="M40,35a5,5,0,1,0,5,5A5.006,5.006,0,0,0,40,35Z"
+      fill="#867fe8"
+    ></path>
+    <rect x="35" y="19" width="10" height="10" rx="2" fill="#a4dae0"></rect>
+    <rect x="3" y="19" width="10" height="10" rx="2" fill="#a4dae0"></rect>
+    <rect x="19" y="3" width="10" height="10" rx="2" fill="#a4dae0"></rect>
+    <rect x="19" y="35" width="10" height="10" rx="2" fill="#a4dae0"></rect>
+  </g>
+</svg>

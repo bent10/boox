@@ -1,0 +1,29 @@
+<script props>
+  const { class: className, matter = {} } = props
+
+  module.exports = { classes: isString(className) ? className : "", matter }
+</script>
+
+<ui:nav as="nav" class="{{classes}}" aria-label="Navbar" navbar>
+  <ui:nav.link
+    class="justify-content-center rounded"
+    href="{{env.base}}guides/index.html"
+    active="{{matter.stem.startsWith('guides')}}"
+  >
+    Guides
+  </ui:nav.link>
+  <ui:nav.link
+    class="justify-content-center rounded"
+    href="{{env.base}}examples/index.html"
+    active="{{matter.stem.startsWith('examples')}}"
+  >
+    Examples
+  </ui:nav.link>
+  <ui:nav.link
+    class="justify-content-center rounded"
+    href="{{env.base}}cli.html"
+    active="{{matter.stem === 'cli'}}"
+  >
+    CLI
+  </ui:nav.link>
+</ui:nav>

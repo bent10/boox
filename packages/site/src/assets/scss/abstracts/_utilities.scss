@@ -1,0 +1,28 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "position": (
+      property: position,
+      responsive: true,
+      values: static relative absolute fixed sticky
+    ),
+    "start": (
+      property: left,
+      class: start,
+      responsive: true,
+      values: $position-values
+    ),
+    "container-max-widths": (
+      property: max-width,
+      class: mw,
+      responsive: true,
+      values: (
+        1: map-get($container-max-widths, "sm"),
+        2: map-get($container-max-widths, "md"),
+        3: map-get($container-max-widths, "lg"),
+        4: map-get($container-max-widths, "xl"),
+        5: map-get($container-max-widths, "xxl")
+      )
+    )
+  )
+);

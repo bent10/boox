@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="{{lang}}" data-bs-theme="{{theme}}">
+  <head>
+    <ui:head.meta title="{{matter.titleTemplate}}"></ui:head.meta>
+
+    <link rel="stylesheet" href="/assets/scss/main.scss" />
+    <link rel="stylesheet" href="/assets/scss/docs.scss" />
+    <stack name="styles"></stack>
+  </head>
+
+  <body>
+    <ui:browsehappy></ui:browsehappy>
+
+    <ui:skipy></ui:skipy>
+
+    <ui:header-docs></ui:header-docs>
+
+    <ui:container fluid="xxl">
+      <ui:row>
+        <ui:offcanvas
+          id="sidebar"
+          class="px-0 bg-body-secondary vh-100 sticky-lg-top"
+          responsive="lg"
+          placement="start"
+          style="z-index: var(--bs-offcanvas-zindex)"
+        >
+          <ui:stack class="h-100" vertical>
+            <ui:link
+              href="../"
+              class="mx-4 py-4 d-flex align-items-center border-bottom"
+              tabindex="-1"
+            >
+              <ui:logo
+                color="body-color"
+                accent="link-color"
+                size="32"
+              ></ui:logo>
+              <span class="my-0 ms-2 text-body-emphasis h3 fw-bold">Boox</span>
+            </ui:link>
+
+            <nav
+              id="docs-nav"
+              class="flex-fill overflow-y-auto"
+              aria-label="Docs"
+            >
+              <ui:nav-stacked
+                items="{{getNavigation('/', navMeta, ({stem}) => stem.indexOf('/') !== -1)}}"
+                meta="{{matter}}"
+              />
+            </nav>
+
+            <div class="py-3 border-top">
+              <ui:nav as="nav" aria-label="Misc" vertical>
+                <ui:nav.link
+                  class="d-flex d-lg-none"
+                  href="{{env.base}}cli.html"
+                  active="{{matter.stem === 'cli'}}"
+                >
+                  CLI
+                </ui:nav.link>
+                <ui:nav.link
+                  href="{{env.base}}changelog.html"
+                  active="{{matter.stem === 'changelog'}}"
+                >
+                  Changelog
+                </ui:nav.link>
+                <!-- <ui:nav.link
+                  href="{{env.base}}contributing.html"
+                  active="{{matter.stem === 'contributing'}}"
+                >
+                  Contributing
+                </ui:nav.link> -->
+              </ui:nav>
+            </div>
+          </ui:stack>
+        </ui:offcanvas>
+
+        <ui:col class="bg-body min-vh-100" vertical>
+          <ui:flex
+            as="main"
+            id="main"
+            align="start"
+            direction="column xl-row"
+            style="padding-top: 63px"
+          >
+            <if condition="matter.toc">
+              <ui:toc
+                headings="headings"
+                class="mx-auto pt-8 pb-5 w-100 sticky-xl-top order-xl-last"
+                style="top: 63px"
+              />
+            </if>
+
+            <article
+              id="content"
+              class="mx-auto py-5 py-xl-8 px-md-4 lh-lg w-100"
+              data-bs-spy="scroll"
+              data-bs-target="#toc"
+            >
+              <block name="content"></block>
+
+              <footer role="contentinfo" class="mt-8">
+                <p class="text-end">
+                  <ui:contentinfo.edit-link />
+                </p>
+                <hr />
+                <if condition="matter.pagination">
+                  <ui:pagination-page
+                    prev="{{prevRoute}}"
+                    next="{{nextRoute}}"
+                    meta="{{navMeta}}"
+                    isLastPage="{{!!matter.isLastPage}}"
+                  />
+                </if>
+                <ui:contentinfo.license />
+              </footer>
+            </article>
+          </ui:flex>
+        </ui:col>
+      </ui:row>
+    </ui:container>
+
+    <script type="module" src="/assets/js/main.ts"></script>
+    <!-- /END [data-js-copy] -->
+    <stack name="scripts"></stack>
+  </body>
+</html>
