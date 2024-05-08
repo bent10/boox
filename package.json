@@ -41,11 +41,11 @@
     "prebuild:doc": "npm run train -w boox-site",
     "build:doc": "npm run build -w boox-site",
     "build:examples": "npm run build -w examples-vanilla -w examples-react -w examples-vue -w examples-svelte -w examples-nextjs",
-    "build": "npm run build -w boox",
-    "types": "npm run types -w boox",
-    "lint": "npm run lint -w boox",
-    "test": "npm test -w boox",
-    "coverage": "npm run coverage -w boox",
+    "build": "npm run build -w boox -w boox-cli",
+    "types": "npm run types -w boox -w boox-cli",
+    "lint": "npm run lint -w boox -w boox-cli",
+    "test": "npm test -w boox -w boox-cli",
+    "coverage": "npm run coverage -w boox -w boox-cli",
     "format": "npm run format --workspaces --if-present"
   },
   "devDependencies": {

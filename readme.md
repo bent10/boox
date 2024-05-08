@@ -7,6 +7,7 @@ Boox is a lightweight, zero-dependency full-text search library designed for bot
 | Package               | Description                                | Version (click for changelog)                                              |
 | :-------------------- | :----------------------------------------- | :------------------------------------------------------------------------- |
 | [core](packages/core) | The Boox package.                          | [![npm](https://img.shields.io/npm/v/boox)](packages/core/changelog.md)    |
+| [cli](packages/cli)   | CLI tool to train your datasets with Boox. | [![npm](https://img.shields.io/npm/v/boox-cli)](packages/cli/changelog.md) |
 
 ## Documentation
 
