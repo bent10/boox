@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pl3-1",
+    "image_url": "https://images.pokemontcg.io/pl3/1_hires.png",
+    "caption": "A Basic, SP Pokemon Card of type Darkness with the title Absol G and 70 HP of rarity Rare Holo from the set Supreme Victors.  It has the attack Feint Attack with the cost Darkness, the energy cost 1 with the description: Choose 1 of your opponent's Pokemon. This attack does 20 damage to that Pokemon. This attack's damage isn't affected by Weakness, Resistance, Poke-Powers, Poke-Bodies, or any other effects on that Pokemon. It has the attack Doom News with the cost Darkness, Colorless, Colorless, the energy cost 3 with the description: Return all Energy cards attached to Absol G to your hand. The Defending Pokemon is Knocked Out at the end of your opponent's next turn. It has weakness against Fighting 2. It has resistance against Psychic -20. ",
+    "name": "Absol G",
+    "hp": 70,
+    "set_name": "Supreme Victors"
+  },
+  {
+    "id": "ex12-1",
+    "image_url": "https://images.pokemontcg.io/ex12/1_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Colorless with the title Aerodactyl and 70 HP of rarity Rare Holo evolved from Mysterious Fossil from the set Legend Maker.  It has the attack Power Blow with the cost Colorless, the energy cost 1 and the damage of 10+ with the description: Does 10 damage plus 10 more damage for each Energy attached to Aerodactyl. It has the attack Speed Stroke with the cost Colorless, Colorless, Colorless, the energy cost 3 and the damage of 40 with the description: During your opponent's next turn, prevent all effects, including damage, done to Aerodactyl by attacks from your opponent's Pokemon-ex. It has the ability Reactive Protection with the description: Any damage done to Aerodactyl by attacks from your opponent's Pokemon is reduced by 10 for each React Energy card attached to Aerodactyl (after applying Weakness and Resistance). It has weakness against Lightning 2. It has resistance against Fighting -30. ",
+    "name": "Aerodactyl",
+    "hp": 70,
+    "set_name": "Legend Maker"
+  },
+  {
+    "id": "xy5-1",
+    "image_url": "https://images.pokemontcg.io/xy5/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Weedle and 50 HP of rarity Common from the set Primal Clash and the flavor text: Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies. It has the attack Multiply with the cost Grass, the energy cost 1 with the description: Search your deck for Weedle and put it onto your Bench. Shuffle your deck afterward. It has weakness against Fire 2. ",
+    "name": "Weedle",
+    "hp": 50,
+    "set_name": "Primal Clash"
+  },
+  {
+    "id": "mcd19-1",
+    "image_url": "https://images.pokemontcg.io/mcd19/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Caterpie and 50 HP of rarity None from the set McDonald's Collection 2019.  It has the attack Surprise Attack with the cost Grass, the energy cost 1 and the damage of 20 with the description: Flip a coin. If tails, this attack does nothing. ",
+    "name": "Caterpie",
+    "hp": 50,
+    "set_name": "McDonald's Collection 2019"
+  },
+  {
+    "id": "ex7-1",
+    "image_url": "https://images.pokemontcg.io/ex7/1_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Water with the title Azumarill and 80 HP of rarity Rare Holo evolved from Marill from the set Team Rocket Returns.  It has the attack Water Punch with the cost Water, Colorless, the energy cost 2 and the damage of 20+ with the description: Flip a coin for each Water Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads. It has the ability Froth with the description: Once during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pokemon, you may use this power. Each Defending Pokemon is now Paralyzed. It has weakness against Lightning 2. ",
+    "name": "Azumarill",
+    "hp": 80,
+    "set_name": "Team Rocket Returns"
+  }
+]

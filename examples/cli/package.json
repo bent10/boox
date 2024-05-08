@@ -1,0 +1,19 @@
+{
+  "name": "examples-cli",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "boox-cli search",
+    "search": "boox-cli search",
+    "train": "boox-cli train"
+  },
+  "devDependencies": {
+    "boox-cli": "^1.0.0",
+    "double-metaphone": "^2.0.1",
+    "marked": "^12.0.2",
+    "marked-plaintify": "^1.0.1",
+    "stemmer": "^2.0.1",
+    "stopword": "^3.0.1"
+  }
+}

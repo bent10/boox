@@ -1,0 +1,26 @@
+{
+  "name": "examples-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.26"
+  },
+  "devDependencies": {
+    "@types/stopword": "^2.0.3",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "boox": "^1.0.0",
+    "metaphone": "^2.0.1",
+    "stemmer": "^2.0.1",
+    "stopword": "^3.0.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vue-debounce": "^5.0.0",
+    "vue-tsc": "^2.0.16"
+  }
+}

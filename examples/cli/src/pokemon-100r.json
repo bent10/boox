@@ -1,0 +1,802 @@
+[
+  {
+    "id": "pl3-1",
+    "image_url": "https://images.pokemontcg.io/pl3/1_hires.png",
+    "caption": "A Basic, SP Pokemon Card of type Darkness with the title Absol G and 70 HP of rarity Rare Holo from the set Supreme Victors.  It has the attack Feint Attack with the cost Darkness, the energy cost 1 with the description: Choose 1 of your opponent's Pokemon. This attack does 20 damage to that Pokemon. This attack's damage isn't affected by Weakness, Resistance, Poke-Powers, Poke-Bodies, or any other effects on that Pokemon. It has the attack Doom News with the cost Darkness, Colorless, Colorless, the energy cost 3 with the description: Return all Energy cards attached to Absol G to your hand. The Defending Pokemon is Knocked Out at the end of your opponent's next turn. It has weakness against Fighting 2. It has resistance against Psychic -20. ",
+    "name": "Absol G",
+    "hp": 70,
+    "set_name": "Supreme Victors"
+  },
+  {
+    "id": "ex12-1",
+    "image_url": "https://images.pokemontcg.io/ex12/1_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Colorless with the title Aerodactyl and 70 HP of rarity Rare Holo evolved from Mysterious Fossil from the set Legend Maker.  It has the attack Power Blow with the cost Colorless, the energy cost 1 and the damage of 10+ with the description: Does 10 damage plus 10 more damage for each Energy attached to Aerodactyl. It has the attack Speed Stroke with the cost Colorless, Colorless, Colorless, the energy cost 3 and the damage of 40 with the description: During your opponent's next turn, prevent all effects, including damage, done to Aerodactyl by attacks from your opponent's Pokemon-ex. It has the ability Reactive Protection with the description: Any damage done to Aerodactyl by attacks from your opponent's Pokemon is reduced by 10 for each React Energy card attached to Aerodactyl (after applying Weakness and Resistance). It has weakness against Lightning 2. It has resistance against Fighting -30. ",
+    "name": "Aerodactyl",
+    "hp": 70,
+    "set_name": "Legend Maker"
+  },
+  {
+    "id": "xy5-1",
+    "image_url": "https://images.pokemontcg.io/xy5/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Weedle and 50 HP of rarity Common from the set Primal Clash and the flavor text: Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies. It has the attack Multiply with the cost Grass, the energy cost 1 with the description: Search your deck for Weedle and put it onto your Bench. Shuffle your deck afterward. It has weakness against Fire 2. ",
+    "name": "Weedle",
+    "hp": 50,
+    "set_name": "Primal Clash"
+  },
+  {
+    "id": "mcd19-1",
+    "image_url": "https://images.pokemontcg.io/mcd19/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Caterpie and 50 HP of rarity None from the set McDonald's Collection 2019.  It has the attack Surprise Attack with the cost Grass, the energy cost 1 and the damage of 20 with the description: Flip a coin. If tails, this attack does nothing. ",
+    "name": "Caterpie",
+    "hp": 50,
+    "set_name": "McDonald's Collection 2019"
+  },
+  {
+    "id": "ex7-1",
+    "image_url": "https://images.pokemontcg.io/ex7/1_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Water with the title Azumarill and 80 HP of rarity Rare Holo evolved from Marill from the set Team Rocket Returns.  It has the attack Water Punch with the cost Water, Colorless, the energy cost 2 and the damage of 20+ with the description: Flip a coin for each Water Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads. It has the ability Froth with the description: Once during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pokemon, you may use this power. Each Defending Pokemon is now Paralyzed. It has weakness against Lightning 2. ",
+    "name": "Azumarill",
+    "hp": 80,
+    "set_name": "Team Rocket Returns"
+  },
+  {
+    "id": "det1-1",
+    "image_url": "https://images.pokemontcg.io/det1/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Bulbasaur and 60 HP of rarity Common from the set Detective Pikachu and the flavor text: A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon. It has the attack Find a Friend with the cost Grass, the energy cost 1 with the description: Search your deck for a Grass Pokemon, reveal it, and put it into your hand. Then, shuffle your deck. It has weakness against Fire 2. ",
+    "name": "Bulbasaur",
+    "hp": 60,
+    "set_name": "Detective Pikachu"
+  },
+  {
+    "id": "ru1-1",
+    "image_url": "https://images.pokemontcg.io/ru1/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Grass with the title Venusaur and 140 HP of rarity None evolved from Ivysaur from the set Pokemon Rumble.  It has the attack Giga Drain with the cost Grass, Grass, Colorless, Colorless, the energy cost 4 and the damage of 50 with the description: Remove from Venusaur the number of damage counters equal to the damage you did to the Defending Pokemon. It has weakness against Fire 2. ",
+    "name": "Venusaur",
+    "hp": 140,
+    "set_name": "Pokémon Rumble"
+  },
+  {
+    "id": "ex3-1",
+    "image_url": "https://images.pokemontcg.io/ex3/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Darkness with the title Absol and 70 HP of rarity Rare Holo from the set Dragon.  It has the attack Bad News with the cost Darkness, the energy cost 1 with the description: If the number of cards in your opponent's hand is at least 6, choose a number of cards there, without looking, until your opponent has 5 cards left. Have your opponent discard the cards you chose. It has the attack Prize Count with the cost Darkness, Colorless, the energy cost 2 and the damage of 20+ with the description: If you have more Prize cards left than your opponent, this attack does 20 damage plus 20 more damage. It has weakness against Fighting 2. It has resistance against Psychic -30. ",
+    "name": "Absol",
+    "hp": 70,
+    "set_name": "Dragon"
+  },
+  {
+    "id": "hgss4-1",
+    "image_url": "https://images.pokemontcg.io/hgss4/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Metal with the title Aggron and 140 HP of rarity Rare Holo evolved from Lairon from the set HSTriumphant and the flavor text: You can tell its age by the length of its iron horns. It claims an entire mountain as its territory. It has the attack Second Strike with the cost Metal, Metal, Colorless, the energy cost 3 and the damage of 40 with the description: If the Defending Pokemon already has any damage counters on it, this attack does 40 damage plus 40 more damage. It has the attack Guard Claw with the cost Metal, Metal, Colorless, Colorless, the energy cost 4 and the damage of 60 with the description: During your opponent's next turn, any damage done to Aggron by attacks is reduced by 20 (after applying Weakness and Resistance). It has weakness against Fire 2. It has resistance against Psychic -20. ",
+    "name": "Aggron",
+    "hp": 140,
+    "set_name": "HS—Triumphant"
+  },
+  {
+    "id": "ex11-1",
+    "image_url": "https://images.pokemontcg.io/ex11/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Grass, Metal with the title Beedrill  and 90 HP of rarity Rare Holo evolved from Kakuna from the set Delta Species.  It has the attack Super Slash with the cost Grass, Metal, Colorless, the energy cost 3 and the damage of 50+ with the description: If the Defending Pokemon is an Evolved Pokemon, this attack does 50 damage plus 30 more damage. It has the ability Final Sting with the description: Once during your turn (before your attack), you may Knock Out Beedrill. If you do, choose 1 of your opponent's Defending Pokemon. That Pokemon is now Paralyzed and Poisoned. Put 2 damage counters instead of 1 on that Pokemon between turns. This power can't be used if Beedrill is affected by a Special Condition. It has weakness against Fire 2. ",
+    "name": "Beedrill δ",
+    "hp": 90,
+    "set_name": "Delta Species"
+  },
+  {
+    "id": "base4-1",
+    "image_url": "https://images.pokemontcg.io/base4/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Psychic with the title Alakazam and 80 HP of rarity Rare Holo evolved from Kadabra from the set Base Set 2 and the flavor text: Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000. It has the attack Confuse Ray with the cost Psychic, Psychic, Psychic, the energy cost 3 and the damage of 30 with the description: Flip a coin. If heads, the Defending Pokemon is now Confused. It has the ability Damage Swap with the description: As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokemon to another as long as you don't Knock Out that Pokemon. This power can't be used if Alakazam is Asleep, Confused, or Paralyzed. It has weakness against Psychic 2. ",
+    "name": "Alakazam",
+    "hp": 80,
+    "set_name": "Base Set 2"
+  },
+  {
+    "id": "pl1-1",
+    "image_url": "https://images.pokemontcg.io/pl1/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Lightning with the title Ampharos and 130 HP of rarity Rare Holo evolved from Flaaffy from the set Platinum.  It has the attack Gigavolt with the cost Lightning, Colorless, the energy cost 2 and the damage of 30+ with the description: Flip a coin. If heads, this attack does 30 damage plus 30 more damage. If tails, the Defending Pokemon is now Paralyzed. It has the attack Reflect Energy with the cost Lightning, Colorless, Colorless, the energy cost 3 and the damage of 70 with the description: Move an Energy card attached to Ampharos to 1 of your Benched Pokemon. It has the ability Damage Bind with the description: Each Pokemon that has any damage counters on it (both yours and your opponent's) can't use any Poke-Powers. It has weakness against Fighting +30. It has resistance against Metal -20. ",
+    "name": "Ampharos",
+    "hp": 130,
+    "set_name": "Platinum"
+  },
+  {
+    "id": "dv1-1",
+    "image_url": "https://images.pokemontcg.io/dv1/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Dragon with the title Dratini and 40 HP of rarity Rare Holo from the set Dragon Vault and the flavor text: It is called the \"Mirage Pokemon\" because so few have seen it. Its shed skin has been found. It has the attack Wrap with the cost Grass, Lightning, the energy cost 2 and the damage of 20 with the description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed. It has weakness against Dragon 2. ",
+    "name": "Dratini",
+    "hp": 40,
+    "set_name": "Dragon Vault"
+  },
+  {
+    "id": "dp3-1",
+    "image_url": "https://images.pokemontcg.io/dp3/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Lightning with the title Ampharos and 130 HP of rarity Rare Holo evolved from Flaaffy from the set Secret Wonders and the flavor text: The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light. It has the attack Cluster Bolt with the cost Lightning, Colorless, Colorless, the energy cost 3 and the damage of 70 with the description: You may discard all Lightning Energy attached to Ampharos. If you do, this attack does 20 damage to each of your opponent's Benched Pokemon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokemon.) It has the ability Jamming with the description: After your opponent plays a Supporter card from his or her hand, put 1 damage counter on each of your opponent's Pokemon. You can't use more than 1 Jamming Poke-Body each turn. It has weakness against Fighting +30. It has resistance against Metal -20. ",
+    "name": "Ampharos",
+    "hp": 130,
+    "set_name": "Secret Wonders"
+  },
+  {
+    "id": "ecard2-H1",
+    "image_url": "https://images.pokemontcg.io/ecard2/H1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Lightning with the title Ampharos and 100 HP of rarity Rare Holo evolved from Flaaffy from the set Aquapolis.  It has the attack Thundershock with the cost Lightning, the energy cost 1 and the damage of 20 with the description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed. It has the attack Reflect Energy with the cost Lightning, Lightning, Colorless, the energy cost 3 and the damage of 50 with the description: If you have any Benched Pokemon and if there are any basic Energy cards attached to Ampharos, take 1 of those Energy cards and attach it to 1 of those Pokemon. It has weakness against Fighting 2. ",
+    "name": "Ampharos",
+    "hp": 100,
+    "set_name": "Aquapolis"
+  },
+  {
+    "id": "hgss1-1",
+    "image_url": "https://images.pokemontcg.io/hgss1/1_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Fire with the title Arcanine and 110 HP of rarity Rare Holo evolved from Growlithe from the set HeartGold & SoulSilver and the flavor text: This legendary Chinese Pokemon is considered magnificent. Many people are enchanted by its grand mane. It has the attack Sharp Fang with the cost Fire, Colorless, the energy cost 2 and the damage of 50. It has the attack Fire Mane with the cost Fire, Colorless, Colorless, Colorless, the energy cost 4 and the damage of 90. It has weakness against Water 2. ",
+    "name": "Arcanine",
+    "hp": 110,
+    "set_name": "HeartGold & SoulSilver"
+  },
+  {
+    "id": "gym1-1",
+    "image_url": "https://images.pokemontcg.io/gym1/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Fire with the title Blaine's Moltres and 90 HP of rarity Rare Holo from the set Gym Heroes.  It has the attack Phoenix Flame with the cost Fire, Fire, Fire, Fire, Fire, the energy cost 5 and the damage of 90 with the description: Flip a coin. If tails, shuffle Blaine's Moltres and all cards attached to it into your deck (after doing damage). It has resistance against Fighting -30. ",
+    "name": "Blaine's Moltres",
+    "hp": 90,
+    "set_name": "Gym Heroes"
+  },
+  {
+    "id": "base3-1",
+    "image_url": "https://images.pokemontcg.io/base3/1_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Fighting with the title Aerodactyl and 60 HP of rarity Rare Holo evolved from Mysterious Fossil from the set Fossil and the flavor text: A ferocious prehistoric Pokemon that goes for the enemy's throat with its serrated saw-like fangs. It has the attack Wing Attack with the cost Colorless, Colorless, Colorless, the energy cost 3 and the damage of 30. It has the ability Prehistoric Power with the description: No more Evolution cards can be played. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed. It has weakness against Grass 2. It has resistance against Fighting -30. ",
+    "name": "Aerodactyl",
+    "hp": 60,
+    "set_name": "Fossil"
+  },
+  {
+    "id": "sm9-1",
+    "image_url": "https://images.pokemontcg.io/sm9/1_hires.png",
+    "caption": "A Basic, TAG TEAM, GX Pokemon Card of type Grass with the title Celebi & Venusaur-GX and 270 HP of rarity Rare Holo GX from the set Team Up.  It has the attack Pollen Hazard with the cost Grass, Colorless, Colorless, the energy cost 3 and the damage of 50 with the description: Your opponent's Active Pokemon is now Burned, Confused, and Poisoned. It has the attack Solar Beam with the cost Grass, Grass, Colorless, Colorless, the energy cost 4 and the damage of 150. It has the attack Evergreen-GX with the cost Grass, Grass, Colorless, Colorless, the energy cost 4 and the damage of 180 with the description: Heal all damage from this Pokemon. If this Pokemon has at least 1 extra Grass Energy attached to it (in addition to this attack's cost), shuffle all cards from your discard pile into your deck. (You can't use more than 1 GX attack in a game.) It has weakness against Fire 2. ",
+    "name": "Celebi & Venusaur-GX",
+    "hp": 270,
+    "set_name": "Team Up"
+  },
+  {
+    "id": "xy2-1",
+    "image_url": "https://images.pokemontcg.io/xy2/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Caterpie and 40 HP of rarity Common from the set Flashfire and the flavor text: For protection, it releases a horrible stench from the antennae on its head to drive away enemies. It has the attack Bug Bite with the cost Grass, the energy cost 1 and the damage of 10. It has the ability Adaptive Evolution with the description: This Pokemon can evolve during your first turn or the turn you play it. It has weakness against Fire 2. ",
+    "name": "Caterpie",
+    "hp": 40,
+    "set_name": "Flashfire"
+  },
+  {
+    "id": "pop6-1",
+    "image_url": "https://images.pokemontcg.io/pop6/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Metal with the title Bastiodon and 130 HP of rarity Rare evolved from Shieldon from the set POP Series 6 and the flavor text: Any frontal attack is repulsed. It is a docile Pokemon that feeds on grass and berries. It has the attack Anger Revenge with the cost Metal, Metal, Colorless, the energy cost 3 and the damage of 60 with the description: If Bastiodon was damaged by an attack during your opponent's last turn, this attack does 40 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) It has the ability Protective Wall with the description: Prevent all damage done to your Benched Pokemon by your opponent's attacks. It has weakness against Fire +40. It has resistance against Psychic -20. ",
+    "name": "Bastiodon",
+    "hp": 130,
+    "set_name": "POP Series 6"
+  },
+  {
+    "id": "pl1-2",
+    "image_url": "https://images.pokemontcg.io/pl1/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Water with the title Blastoise and 130 HP of rarity Rare Holo evolved from Wartortle from the set Platinum.  It has the attack Aqua Press with the cost Water, Colorless, the energy cost 2 and the damage of 20+ with the description: Does 20 damage plus 10 more damage for each Energy attached to all Pokemon (both yours and your opponent's). It has the attack Double Launcher with the cost Water, Water, Colorless, Colorless, the energy cost 4 with the description: Discard 2 Energy attached to Blastoise. Choose 2 of your opponent's Benched Pokemon. This attack does 60 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokemon.) Blastoise can't use Double Launcher during your next turn. It has the ability Dig Well with the description: Once during your turn (before your attack), you may look at the top 3 cards of your deck, choose as many Water Energy cards as you like, and attach them to your Pokemon in any way you like. Discard the other cards. This power can't be used if Blastoise is affected by a Special Condition. It has weakness against Lightning +30. ",
+    "name": "Blastoise",
+    "hp": 130,
+    "set_name": "Platinum"
+  },
+  {
+    "id": "xy2-2",
+    "image_url": "https://images.pokemontcg.io/xy2/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Metapod and 70 HP of rarity Uncommon evolved from Caterpie from the set Flashfire and the flavor text: A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution. It has the attack Harden with the cost Colorless, Colorless, the energy cost 2 with the description: During your opponent's next turn, if this Pokemon would be damaged by an attack, prevent that attack's damage done to this Pokemon if that damage is 60 or less. It has the ability Adaptive Evolution with the description: This Pokemon can evolve during your first turn or the turn you play it. It has weakness against Fire 2. ",
+    "name": "Metapod",
+    "hp": 70,
+    "set_name": "Flashfire"
+  },
+  {
+    "id": "ecard2-H2",
+    "image_url": "https://images.pokemontcg.io/ecard2/H2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Fire with the title Arcanine and 90 HP of rarity Rare Holo evolved from Growlithe from the set Aquapolis.  It has the attack Fire Blow with the cost Colorless, Colorless, Colorless, the energy cost 3 and the damage of 30+ with the description: You may discard any number of Fire Energy cards attached to Arcanine when you use this attack. If you do, flip a number of coins equal to the number of Fire Energy cards you discarded. This attack does 30 damage plus 30 more damage for each heads. It has the ability Extreme Speed with the description: You pay Colorless less to retreat Arcanine for each Energy attached to it. It has weakness against Water 2. ",
+    "name": "Arcanine",
+    "hp": 90,
+    "set_name": "Aquapolis"
+  },
+  {
+    "id": "hgss4-2",
+    "image_url": "https://images.pokemontcg.io/hgss4/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Colorless with the title Altaria and 90 HP of rarity Rare Holo evolved from Swablu from the set HSTriumphant and the flavor text: It flies gracefully through the sky. Its melodic humming makes you feel like you're in a dream. It has the attack Midnight Eyes with the cost Colorless, the energy cost 1 and the damage of 20 with the description: The Defending Pokemon is now Asleep. It has the attack Stadium Power with the cost Colorless, Colorless, Colorless, the energy cost 3 and the damage of 40+ with the description: If there is any Stadium card in play, this attack does 40 damage plus 30 more damage. It has weakness against Colorless 2. It has resistance against Fighting -20. ",
+    "name": "Altaria",
+    "hp": 90,
+    "set_name": "HS—Triumphant"
+  },
+  {
+    "id": "pop6-2",
+    "image_url": "https://images.pokemontcg.io/pop6/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Fighting with the title Lucario and 90 HP of rarity Rare evolved from Riolu from the set POP Series 6 and the flavor text: It has the ability to sense the auras of all things. It understands human speech. It has the attack Feint with the cost Colorless, the energy cost 1 and the damage of 30 with the description: This attack's damage isn't affected by Resistance. It has the attack Aura Sphere with the cost Fighting, Fighting, the energy cost 2 and the damage of 40 with the description: Does 20 damage to 1 of your opponent's Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) It has weakness against Psychic +20. ",
+    "name": "Lucario",
+    "hp": 90,
+    "set_name": "POP Series 6"
+  },
+  {
+    "id": "base3-2",
+    "image_url": "https://images.pokemontcg.io/base3/2_hires.png",
+    "caption": "A Basic Pokemon Card of type Water with the title Articuno and 70 HP of rarity Rare Holo from the set Fossil and the flavor text: A legendary bird Pokemon that is said to appear to doomed people who are lost in icy mountains. It has the attack Freeze Dry with the cost Water, Water, Water, the energy cost 3 and the damage of 30 with the description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed. It has the attack Blizzard with the cost Water, Water, Water, Water, the energy cost 4 and the damage of 50 with the description: Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokemon. If tails, this attack does 10 damage to each of your own Benched Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) It has resistance against Fighting -30. ",
+    "name": "Articuno",
+    "hp": 70,
+    "set_name": "Fossil"
+  },
+  {
+    "id": "ex3-2",
+    "image_url": "https://images.pokemontcg.io/ex3/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Colorless with the title Altaria and 80 HP of rarity Rare Holo evolved from Swablu from the set Dragon.  It has the attack Dragon Dance with the cost Colorless, the energy cost 1 with the description: During your next turn, if any of your current Active Pokemon does damage to any Defending Pokemon, this attack does 40 more damage (before applying Weakness and Resistance). It has the attack Dragon Song with the cost Water, Lightning, the energy cost 2 and the damage of 30 with the description: Each Defending Pokemon is now Asleep. It has weakness against Colorless 2. It has resistance against Grass -30 and . Fighting -30. ",
+    "name": "Altaria",
+    "hp": 80,
+    "set_name": "Dragon"
+  },
+  {
+    "id": "base4-2",
+    "image_url": "https://images.pokemontcg.io/base4/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Water with the title Blastoise and 100 HP of rarity Rare Holo evolved from Wartortle from the set Base Set 2 and the flavor text: A brutal Pokemon with pressurized water jets on its shell. They are used for high-speed tackles. It has the attack Hydro Pump with the cost Water, Water, Water, the energy cost 3 and the damage of 40+ with the description: Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way. It has the ability Rain Dance with the description: As often as you like during your turn (before your attack), you may attach 1 Water Energy card to 1 of your Water Pokemon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed. It has weakness against Lightning 2. ",
+    "name": "Blastoise",
+    "hp": 100,
+    "set_name": "Base Set 2"
+  },
+  {
+    "id": "pl3-2",
+    "image_url": "https://images.pokemontcg.io/pl3/2_hires.png",
+    "caption": "A Basic, SP Pokemon Card of type Fire with the title Blaziken FB and 80 HP of rarity Rare Holo from the set Supreme Victors.  It has the attack Luring Flame with the cost Fire, the energy cost 1 with the description: Switch the Defending Pokemon with 1 of your opponent's Benched Pokemon. The new Defending Pokemon is now Burned. It has the attack Vapor Kick with the cost Fire, Colorless, the energy cost 2 and the damage of 30+ with the description: If your opponent has any Water Pokemon in play, this attack does 30 damage plus 30 more damage. It has weakness against Water 2. ",
+    "name": "Blaziken FB",
+    "hp": 80,
+    "set_name": "Supreme Victors"
+  },
+  {
+    "id": "ex11-2",
+    "image_url": "https://images.pokemontcg.io/ex11/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Grass, Metal with the title Crobat  and 90 HP of rarity Rare Holo evolved from Golbat from the set Delta Species.  It has the attack Radar Jam with the cost Colorless, Colorless, the energy cost 2 and the damage of 30 with the description: Your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand during your opponent's next turn. It has the attack Target Attack with the cost Grass, Metal, Colorless, the energy cost 3 with the description: Choose 1 of your opponent's Pokemon. This attack does 40 damage to that Pokemon. If that Pokemon already has damage counters on it, this attack does 60 damage instead. (Don't apply Weakness and Resistance for Benched Pokemon.) It has weakness against Psychic 2. ",
+    "name": "Crobat δ",
+    "hp": 90,
+    "set_name": "Delta Species"
+  },
+  {
+    "id": "dp3-2",
+    "image_url": "https://images.pokemontcg.io/dp3/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Water with the title Blastoise and 120 HP of rarity Rare Holo evolved from Wartortle from the set Secret Wonders and the flavor text: The jets of water it spouts from the rocket cannons on its shell can punch through thick steel. It has the attack Hydro Pump with the cost Water, Water, Colorless, the energy cost 3 and the damage of 50+ with the description: Does 50 damage plus 20 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way. It has the ability Waterlog with the description: Once during your turn (before your attack), you may attach as many basic Water Energy cards from your hand to any of your Pokemon in any way you like. If you do, your turn ends. This power can't be used if Blastoise is affected by a Special Condition. It has weakness against Lightning +30. ",
+    "name": "Blastoise",
+    "hp": 120,
+    "set_name": "Secret Wonders"
+  },
+  {
+    "id": "sm9-2",
+    "image_url": "https://images.pokemontcg.io/sm9/2_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Weedle and 40 HP of rarity Common from the set Team Up and the flavor text: Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head. It has the attack Tangle Drag with the cost Grass, the energy cost 1 with the description: Switch 1 of your opponent's Benched Pokemon with their Active Pokemon. It has the attack Bug Bite with the cost Grass, the energy cost 1 and the damage of 10. It has weakness against Fire 2. ",
+    "name": "Weedle",
+    "hp": 40,
+    "set_name": "Team Up"
+  },
+  {
+    "id": "ru1-2",
+    "image_url": "https://images.pokemontcg.io/ru1/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Cherrim and 80 HP of rarity None evolved from Cherubi from the set Pokemon Rumble.  It has the attack Solarbeam with the cost Grass, Colorless, Colorless, the energy cost 3 and the damage of 60. It has weakness against Fire 2. It has resistance against Water -20. ",
+    "name": "Cherrim",
+    "hp": 80,
+    "set_name": "Pokémon Rumble"
+  },
+  {
+    "id": "gym1-2",
+    "image_url": "https://images.pokemontcg.io/gym1/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Fighting with the title Brock's Rhydon and 80 HP of rarity Rare Holo evolved from Brock's Rhyhorn from the set Gym Heroes.  It has the attack Lariat with the cost Fighting, Fighting, Colorless, Colorless, the energy cost 4 and the damage of 70 with the description: Flip a coin. If tails, this attack does nothing. It has the ability Bench Guard with the description: As long as Brock's Rhydon is Benched, whenever 1 of your Benched Pokemon is damaged, you may do 10 of that damage to Brock's Rhydon instead. (If more than 1 of your Benched Pokemon is damaged at the same time, you may use this power once for each of them.) It has weakness against Grass 2. It has resistance against Lightning -30. ",
+    "name": "Brock's Rhydon",
+    "hp": 80,
+    "set_name": "Gym Heroes"
+  },
+  {
+    "id": "xy5-2",
+    "image_url": "https://images.pokemontcg.io/xy5/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Kakuna and 80 HP of rarity Uncommon evolved from Weedle from the set Primal Clash and the flavor text: While awaiting evolution, it hides from predators under leaves and in nooks of branches. It has the attack Bug Bite with the cost Grass, the energy cost 1 and the damage of 20. It has weakness against Fire 2. ",
+    "name": "Kakuna",
+    "hp": 80,
+    "set_name": "Primal Clash"
+  },
+  {
+    "id": "ex7-2",
+    "image_url": "https://images.pokemontcg.io/ex7/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Lightning, Darkness with the title Dark Ampharos and 120 HP of rarity Rare Holo evolved from Dark Flaaffy from the set Team Rocket Returns.  It has the attack Ram with the cost Colorless, Colorless, the energy cost 2 and the damage of 30. It has the attack Shock Bolt with the cost Lightning, Colorless, Colorless, the energy cost 3 and the damage of 70 with the description: Discard all Lightning Energy attached to Dark Ampharos. It has the ability Darkest Impulse with the description: As long as Dark Ampharos is in play, whenever your opponent plays an Evolution card from his or her hand to evolve 1 of his or her Pokemon, put 2 damage counters on that Pokemon. You can't use more than 1 Darkest Impulse Poke-Body each turn. It has weakness against Fighting 2. ",
+    "name": "Dark Ampharos",
+    "hp": 120,
+    "set_name": "Team Rocket Returns"
+  },
+  {
+    "id": "det1-2",
+    "image_url": "https://images.pokemontcg.io/det1/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Grass with the title Ludicolo and 140 HP of rarity Rare evolved from Lombre from the set Detective Pikachu and the flavor text: If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance. It has the attack Punch and Run with the cost Grass, Colorless, Colorless, the energy cost 3 and the damage of 70 with the description: Switch this Pokemon with 1 of your Benched Pokemon. It has the ability Table Service with the description: Once during your turn (before your attack), you may heal 30 damage from 1 of your Pokemon. It has weakness against Fire 2. ",
+    "name": "Ludicolo",
+    "hp": 140,
+    "set_name": "Detective Pikachu"
+  },
+  {
+    "id": "mcd19-2",
+    "image_url": "https://images.pokemontcg.io/mcd19/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Alolan Exeggutor and 160 HP of rarity None evolved from Exeggcute from the set McDonald's Collection 2019.  It has the attack Tropical Shake with the cost Grass, the energy cost 1 and the damage of 20+ with the description: This attack does 20 more damage for each type of basic Energy card in your discard pile. You can't add more than 100 damage in this way. ",
+    "name": "Alolan Exeggutor",
+    "hp": 160,
+    "set_name": "McDonald's Collection 2019"
+  },
+  {
+    "id": "ex12-2",
+    "image_url": "https://images.pokemontcg.io/ex12/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Metal with the title Aggron and 110 HP of rarity Rare Holo evolved from Lairon from the set Legend Maker.  It has the attack Heavy Blow with the cost Fighting, Colorless, Colorless, the energy cost 3 and the damage of 70- with the description: Does 70 damage minus 10 damage for each damage counter on Aggron. If Aggron has any React Energy cards attached to it, this attack does 70 damage instead. It has the attack Bound Crush with the cost Fighting, Metal, Colorless, Colorless, the energy cost 4 with the description: Choose 1 of your opponent's Pokemon. This attack does 60 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) During your next turn, Aggron can't use Bound Crush. It has weakness against Fire 2. It has resistance against Grass -30. ",
+    "name": "Aggron",
+    "hp": 110,
+    "set_name": "Legend Maker"
+  },
+  {
+    "id": "hgss1-2",
+    "image_url": "https://images.pokemontcg.io/hgss1/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Water with the title Azumarill and 90 HP of rarity Rare Holo evolved from Marill from the set HeartGold & SoulSilver and the flavor text: When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet. It has the attack Waterfall with the cost Water, Water, the energy cost 2 and the damage of 40. It has the attack Bubblebeam with the cost Water, Colorless, Colorless, the energy cost 3 and the damage of 60 with the description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed. It has weakness against Lightning 2. ",
+    "name": "Azumarill",
+    "hp": 90,
+    "set_name": "HeartGold & SoulSilver"
+  },
+  {
+    "id": "ex14-1",
+    "image_url": "https://images.pokemontcg.io/ex14/1_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Psychic with the title Banette and 70 HP of rarity Rare Holo evolved from Shuppet from the set Crystal Guardians.  It has the attack Night Murmurs with the cost Psychic, Colorless, the energy cost 2 and the damage of 30 with the description: If the Defending Pokemon is a Basic Pokemon, that Pokemon is now Confused. It has the ability Safeguard with the description: Prevent all effects of attacks, including damage, done to Banette by your opponent's Pokemon-ex. It has weakness against Darkness 2. It has resistance against Fighting -30. ",
+    "name": "Banette",
+    "hp": 70,
+    "set_name": "Crystal Guardians"
+  },
+  {
+    "id": "xy11-1",
+    "image_url": "https://images.pokemontcg.io/xy11/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Tangela and 80 HP of rarity Common from the set Steam Siege and the flavor text: It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared. It has the attack Slam with the cost Grass, Colorless, the energy cost 2 and the damage of 30 with the description: Flip 2 coins. This attack does 30 damage times the number of heads. It has the attack Mega Drain with the cost Grass, Grass, Colorless, the energy cost 3 and the damage of 40 with the description: Heal 20 damage from this Pokemon. It has weakness against Fire 2. ",
+    "name": "Tangela",
+    "hp": 80,
+    "set_name": "Steam Siege"
+  },
+  {
+    "id": "sm12-1",
+    "image_url": "https://images.pokemontcg.io/sm12/1_hires.png",
+    "caption": "A Basic, TAG TEAM, GX Pokemon Card of type Grass with the title Venusaur & Snivy-GX and 270 HP of rarity Rare Holo GX from the set Cosmic Eclipse.  It has the attack Forest Dump with the cost Grass, Colorless, Colorless, Colorless, the energy cost 4 and the damage of 160. It has the attack Solar Plant-GX with the cost Colorless, Colorless, Colorless, the energy cost 3 with the description: This attack does 50 damage to each of your opponent's Pokemon. If this Pokemon has at least 2 extra Energy attached to it (in addition to this attack's cost), heal all damage from all of your Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) (You can't use more than 1 GX attack in a game.) It has the ability Shining Vine with the description: Once during your turn, if this Pokemon is your Active Pokemon, when you attach a Grass Energy card from your hand to it, you may switch 1 of your opponent's Benched Pokemon with their Active Pokemon. It has weakness against Fire 2. ",
+    "name": "Venusaur & Snivy-GX",
+    "hp": 270,
+    "set_name": "Cosmic Eclipse"
+  },
+  {
+    "id": "swsh35-1",
+    "image_url": "https://images.pokemontcg.io/swsh35/1_hires.png",
+    "caption": "A Basic, V Pokemon Card of type Grass with the title Venusaur V and 220 HP of rarity Rare Holo V from the set Champion's Path.  It has the attack Pollen Bomb with the cost Grass, Grass, Colorless, the energy cost 3 and the damage of 80 with the description: Your opponent's Active Pokemon is now Asleep and Poisoned. It has the attack Solar Typhoon with the cost Grass, Grass, Grass, Colorless, the energy cost 4 and the damage of 220 with the description: During your next turn, this Pokemon can't use Solar Typhoon. It has weakness against Fire 2. ",
+    "name": "Venusaur V",
+    "hp": 220,
+    "set_name": "Champion's Path"
+  },
+  {
+    "id": "sm3-1",
+    "image_url": "https://images.pokemontcg.io/sm3/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Caterpie and 50 HP of rarity Common from the set Burning Shadows and the flavor text: When attacked by bird Pokemon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey. It has the attack Surprise Attack with the cost Grass, the energy cost 1 and the damage of 20 with the description: Flip a coin. If tails, this attack does nothing. It has weakness against Fire 2. ",
+    "name": "Caterpie",
+    "hp": 50,
+    "set_name": "Burning Shadows"
+  },
+  {
+    "id": "xy7-1",
+    "image_url": "https://images.pokemontcg.io/xy7/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Oddish and 50 HP of rarity Common from the set Ancient Origins and the flavor text: Its scientific name is \"Oddium Wanderus.\" At night, it is said to walk nearly 1,000 feet on its two roots. It has the attack Trip Over with the cost Grass, the energy cost 1 and the damage of 10+ with the description: Flip a coin. If heads, this attack does 10 more damage. It has weakness against Fire 2. ",
+    "name": "Oddish",
+    "hp": 50,
+    "set_name": "Ancient Origins"
+  },
+  {
+    "id": "ex9-1",
+    "image_url": "https://images.pokemontcg.io/ex9/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Fire with the title Blaziken and 110 HP of rarity Rare Holo evolved from Combusken from the set Emerald.  It has the attack Searing Flame with the cost Colorless, the energy cost 1 and the damage of 10 with the description: The Defending Pokemon is now Burned. It has the attack Damage Burn with the cost Fire, Fire, Colorless, the energy cost 3 and the damage of 50+ with the description: If the Defending Pokemon already has any damage counters on it, this attack does 50 damage plus 20 more damage. It has the ability Blaze with the description: As long as Blaziken's remaining HP is 40 or less, Blaziken does 40 more damage to the Defending Pokemon (before applying Weakness and Resistance). It has weakness against Water 2. ",
+    "name": "Blaziken",
+    "hp": 110,
+    "set_name": "Emerald"
+  },
+  {
+    "id": "sm115-1",
+    "image_url": "https://images.pokemontcg.io/sm115/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Caterpie and 60 HP of rarity Common from the set Hidden Fates and the flavor text: Perhaps because it would like to grow up quickly, it has a voracious appetite, eating a hundred leaves a day. It has the attack Tackle with the cost Grass, the energy cost 1 and the damage of 10. It has weakness against Fire 2. ",
+    "name": "Caterpie",
+    "hp": 60,
+    "set_name": "Hidden Fates"
+  },
+  {
+    "id": "sm1-1",
+    "image_url": "https://images.pokemontcg.io/sm1/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Caterpie and 50 HP of rarity Common from the set Sun & Moon and the flavor text: When attacked by bird Pokemon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey. It has the attack Nap with the cost Colorless, the energy cost 1 with the description: Heal 20 damage from this Pokemon. It has the attack Gnaw with the cost Colorless, Colorless, the energy cost 2 and the damage of 20. It has weakness against Fire 2. ",
+    "name": "Caterpie",
+    "hp": 50,
+    "set_name": "Sun & Moon"
+  },
+  {
+    "id": "dp1-1",
+    "image_url": "https://images.pokemontcg.io/dp1/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Metal with the title Dialga and 90 HP of rarity Rare Holo from the set Diamond & Pearl and the flavor text: It has the power to control time. It appears in Sinnoh-region myths as an ancient deity. It has the attack Time Bellow with the cost Metal, the energy cost 1 and the damage of 10 with the description: Draw a card. It has the attack Flash Cannon with the cost Metal, Metal, Colorless, the energy cost 3 and the damage of 40 with the description: You may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pokemon and shuffle that card into your opponent's deck. It has weakness against Fire +20. It has resistance against Psychic -20. ",
+    "name": "Dialga",
+    "hp": 90,
+    "set_name": "Diamond & Pearl"
+  },
+  {
+    "id": "pop7-1",
+    "image_url": "https://images.pokemontcg.io/pop7/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Lightning with the title Ampharos and 130 HP of rarity Rare evolved from Flaaffy from the set POP Series 7 and the flavor text: The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light. It has the attack Cluster Bolt with the cost Lightning, Colorless, Colorless, the energy cost 3 and the damage of 70 with the description: You may discard all Lightning Energy attached to Ampharos. If you do, this attack does 20 damage to each of your opponent's Benched Pokemon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokemon.) It has the ability Jamming with the description: After your opponent plays a Supporter card from his or her hand, put 1 damage counter on each of your opponent's Pokemon. You can't use more than 1 Jamming Poke-Body each turn. It has weakness against Fighting +30. It has resistance against Metal -20. ",
+    "name": "Ampharos",
+    "hp": 130,
+    "set_name": "POP Series 7"
+  },
+  {
+    "id": "si1-1",
+    "image_url": "https://images.pokemontcg.io/si1/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Psychic with the title Mew and 30 HP of rarity None from the set Southern Islands and the flavor text: This Pokemon's body is covered by fine hairs that can be seen only under a microscope. It has the attack Rainbow Wave with the cost Psychic, the energy cost 1 with the description: Choose a type of Energy other than Colorless attached to Mew. This attack does 20 damage to each of your opponent's Pokemon of that type (including Benched Pokemon). Don't apply Weakness and Resistance. It has weakness against Psychic 2. ",
+    "name": "Mew",
+    "hp": 30,
+    "set_name": "Southern Islands"
+  },
+  {
+    "id": "col1-1",
+    "image_url": "https://images.pokemontcg.io/col1/1_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Colorless with the title Clefable and 80 HP of rarity Rare Holo evolved from Clefairy from the set Call of Legends and the flavor text: With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places. It has the attack Fairy Power with the cost Colorless, Colorless, the energy cost 2 with the description: Return 1 of your Pokemon and all cards attached to it in your hand. It has the attack Moon Impact with the cost Colorless, Colorless, the energy cost 2 and the damage of 40. It has weakness against Fighting 2. ",
+    "name": "Clefable",
+    "hp": 80,
+    "set_name": "Call of Legends"
+  },
+  {
+    "id": "bw1-1",
+    "image_url": "https://images.pokemontcg.io/bw1/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Snivy and 60 HP of rarity Common from the set Black & White and the flavor text: They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop. It has the attack Tackle with the cost Grass, the energy cost 1 and the damage of 10. It has the attack Vine Whip with the cost Grass, Colorless, the energy cost 2 and the damage of 20. It has weakness against Fire 2. It has resistance against Water -20. ",
+    "name": "Snivy",
+    "hp": 60,
+    "set_name": "Black & White"
+  },
+  {
+    "id": "ex13-1",
+    "image_url": "https://images.pokemontcg.io/ex13/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Fighting, Metal with the title Armaldo  and 110 HP of rarity Rare Holo evolved from Anorith from the set Holon Phantoms.  It has the attack Delta Edge with the cost Metal, Colorless, the energy cost 2 and the damage of 70 with the description: If you have any Supporter cards in play, this attack's base damage is 20 instead of 70. It has the attack Fossil Charge with the cost Fighting, Colorless, Colorless, the energy cost 3 and the damage of 50 with the description: You may discard a Claw Fossil, Mysterious Fossil, Root Fossil, or Holon Fossil from your hand. If you do, choose 1 of your opponent's Benched Pokemon and do 30 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) It has weakness against Grass 2. ",
+    "name": "Armaldo δ",
+    "hp": 110,
+    "set_name": "Holon Phantoms"
+  },
+  {
+    "id": "gym2-1",
+    "image_url": "https://images.pokemontcg.io/gym2/1_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Fire with the title Blaine's Arcanine and 90 HP of rarity Rare Holo evolved from Blaine's Growlithe from the set Gym Challenge.  It has the attack Heat Tackle with the cost Fire, Colorless, Colorless, the energy cost 3 and the damage of 40 with the description: Blaine's Arcanine does 10 damage to itself. It has the attack Firestorm with the cost Fire, Fire, Fire, Fire, the energy cost 4 and the damage of 120 with the description: Discard 3 Fire Energy cards attached to Blaine's Arcanine in order to use this attack. It has weakness against Water 2. ",
+    "name": "Blaine's Arcanine",
+    "hp": 90,
+    "set_name": "Gym Challenge"
+  },
+  {
+    "id": "bw10-1",
+    "image_url": "https://images.pokemontcg.io/bw10/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Surskit and 50 HP of rarity Common from the set Plasma Blast and the flavor text: It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head. It has the attack Sweet Scent with the cost Grass, the energy cost 1 with the description: Heal 20 damage from 1 of your Pokemon. It has weakness against Fire 2. ",
+    "name": "Surskit",
+    "hp": 50,
+    "set_name": "Plasma Blast"
+  },
+  {
+    "id": "dv1-2",
+    "image_url": "https://images.pokemontcg.io/dv1/2_hires.png",
+    "caption": "A Basic Pokemon Card of type Dragon with the title Dratini and 40 HP of rarity Rare Holo from the set Dragon Vault and the flavor text: It is called the \"Mirage Pokemon\" because so few have seen it. Its shed skin has been found. It has the attack Hypnotic Gaze with the cost Grass, the energy cost 1 with the description: The Defending Pokemon is now Asleep. It has the attack Tail Whap with the cost Lightning, the energy cost 1 and the damage of 10. It has weakness against Dragon 2. ",
+    "name": "Dratini",
+    "hp": 40,
+    "set_name": "Dragon Vault"
+  },
+  {
+    "id": "bw10-2",
+    "image_url": "https://images.pokemontcg.io/bw10/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Masquerain and 80 HP of rarity Rare evolved from Surskit from the set Plasma Blast and the flavor text: Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction. It has the attack Bug Bite with the cost Colorless, Colorless, Colorless, the energy cost 3 and the damage of 60. It has the ability Tool Reversal with the description: As often as you like during your turn (before your attack), you may put a Pokemon Tool card attached to 1 of your Pokemon into your hand. It has weakness against Fire 2. ",
+    "name": "Masquerain",
+    "hp": 80,
+    "set_name": "Plasma Blast"
+  },
+  {
+    "id": "si1-2",
+    "image_url": "https://images.pokemontcg.io/si1/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Colorless with the title Pidgeot and 70 HP of rarity None evolved from Pidgeotto from the set Southern Islands and the flavor text: This Pokemon searches for food while flying at Mach 2. Its large claws make fearsome weapons. It has the attack Supersonic Flight with the cost Colorless, Colorless, the energy cost 2 and the damage of 40 with the description: Flip a coin. If tails, this attack does nothing. It has the attack Slicing Wind with the cost Colorless, Colorless, Colorless, Colorless, the energy cost 4 and the damage of 50. It has weakness against Lightning 2. It has resistance against Fighting -30. ",
+    "name": "Pidgeot",
+    "hp": 70,
+    "set_name": "Southern Islands"
+  },
+  {
+    "id": "ex11-3",
+    "image_url": "https://images.pokemontcg.io/ex11/3_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Lightning, Metal with the title Dragonite  and 100 HP of rarity Rare Holo evolved from Dragonair from the set Delta Species.  It has the attack Agility with the cost Lightning, Colorless, the energy cost 2 and the damage of 30 with the description: Flip a coin. If heads, prevent all effects of an attack, including damage, done to Dragonite during your opponent's next turn. It has the attack Heavy Impact with the cost Lightning, Metal, Colorless, Colorless, the energy cost 4 and the damage of 70. It has the ability Delta Charge with the description: Once during your turn (before your attack), you may attach a Lightning Energy card from your discard pile to 1 of your Benched Pokemon. This power can't be used if Dragonite is affected by a Special Condition. It has weakness against Colorless 2. It has resistance against Grass -30 and . Fighting -30. ",
+    "name": "Dragonite δ",
+    "hp": 100,
+    "set_name": "Delta Species"
+  },
+  {
+    "id": "bw1-2",
+    "image_url": "https://images.pokemontcg.io/bw1/2_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Snivy and 60 HP of rarity Common from the set Black & White and the flavor text: They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop. It has the attack Leaf Blade with the cost Grass, Colorless, the energy cost 2 and the damage of 10+ with the description: Flip a coin. If heads, this attack does 30 more damage. It has weakness against Fire 2. It has resistance against Water -20. ",
+    "name": "Snivy",
+    "hp": 60,
+    "set_name": "Black & White"
+  },
+  {
+    "id": "dv1-3",
+    "image_url": "https://images.pokemontcg.io/dv1/3_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Dragon with the title Dragonair and 70 HP of rarity Rare Holo evolved from Dratini from the set Dragon Vault and the flavor text: If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes. It has the attack Tail Whap with the cost Colorless, Colorless, the energy cost 2 and the damage of 20. It has the attack Dragon Pulse with the cost Grass, Lightning, Colorless, the energy cost 3 and the damage of 70 with the description: Discard the top card of your deck. It has weakness against Dragon 2. ",
+    "name": "Dragonair",
+    "hp": 70,
+    "set_name": "Dragon Vault"
+  },
+  {
+    "id": "pl3-3",
+    "image_url": "https://images.pokemontcg.io/pl3/3_hires.png",
+    "caption": "A Basic, SP Pokemon Card of type Psychic with the title Drifblim FB and 80 HP of rarity Rare Holo from the set Supreme Victors.  It has the attack Shadow Ball with the cost Psychic, Colorless, Colorless, the energy cost 3 with the description: Choose 1 of your opponent's Benched Pokemon. This attack does 40 damage to that Pokemon. Apply Weakness and Resistance. It has the ability Pump Up with the description: If your opponent has 3 or less Prize cards left, Drifblim FB gets +40 HP. It has weakness against Darkness 2. It has resistance against Colorless -20. ",
+    "name": "Drifblim FB",
+    "hp": 80,
+    "set_name": "Supreme Victors"
+  },
+  {
+    "id": "xy2-3",
+    "image_url": "https://images.pokemontcg.io/xy2/3_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Grass with the title Butterfree and 130 HP of rarity Rare evolved from Metapod from the set Flashfire and the flavor text: It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen. It has the attack Quiver Dance with the cost Grass, the energy cost 1 with the description: Search your deck for a basic Energy card and attach it to this Pokemon. Shuffle your deck afterward. If you attached Energy in this way, heal 40 damage from this Pokemon. It has the attack Gust with the cost Grass, Colorless, Colorless, the energy cost 3 and the damage of 70. It has weakness against Lightning 2. It has resistance against Fighting -20. ",
+    "name": "Butterfree",
+    "hp": 130,
+    "set_name": "Flashfire"
+  },
+  {
+    "id": "ex12-3",
+    "image_url": "https://images.pokemontcg.io/ex12/3_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Grass with the title Cradily and 100 HP of rarity Rare Holo evolved from Lileep from the set Legend Maker.  It has the attack Devolution Wave with the cost Colorless, Colorless, the energy cost 2 with the description: Count the number of React Energy cards attached to Cradily and choose up to that number of your opponent's Evolved Pokemon. Remove the highest Stage Evolution card from each of those Pokemon, then have your opponent shuffle those cards into his or her deck. It has the attack Linear Attack with the cost Grass, Colorless, the energy cost 2 with the description: Choose 1 of your opponent's Pokemon. This attack does 30 damage to that Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) It has the attack Mud Shot with the cost Colorless, Colorless, Colorless, the energy cost 3 and the damage of 50. It has weakness against Fire 2. ",
+    "name": "Cradily",
+    "hp": 100,
+    "set_name": "Legend Maker"
+  },
+  {
+    "id": "swsh35-2",
+    "image_url": "https://images.pokemontcg.io/swsh35/2_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Weedle and 60 HP of rarity Common from the set Champion's Path and the flavor text: Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies. It has the attack Call for Family with the cost Colorless, the energy cost 1 with the description: Search your deck for a Basic Pokemon and put it onto your Bench. Then, shuffle your deck. It has weakness against Fire 2. ",
+    "name": "Weedle",
+    "hp": 60,
+    "set_name": "Champion's Path"
+  },
+  {
+    "id": "det1-3",
+    "image_url": "https://images.pokemontcg.io/det1/3_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Morelull and 50 HP of rarity Common from the set Detective Pikachu and the flavor text: It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular. It has the attack Sleep Spore with the cost Grass, the energy cost 1 and the damage of 10 with the description: Your opponent's Active Pokemon is now Asleep. It has weakness against Fire 2. ",
+    "name": "Morelull",
+    "hp": 50,
+    "set_name": "Detective Pikachu"
+  },
+  {
+    "id": "base3-3",
+    "image_url": "https://images.pokemontcg.io/base3/3_hires.png",
+    "caption": "A Basic Pokemon Card of type Colorless with the title Ditto and 50 HP of rarity Rare Holo from the set Fossil and the flavor text: Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy. It has the ability Transform with the description: If Ditto is your Active Pokemon, treat it as if it were the same card as the Defending Pokemon, including type, Hit Points, Weakness, and so on, except Ditto can't evolve, always has this Pokemon Power, and you may treat any Energy attached to Ditto as Energy of any type. Ditto isn't a copy of any other Pokemon while Ditto is Asleep, Confused, or Paralyzed. It has weakness against Fighting 2. It has resistance against Psychic -30. ",
+    "name": "Ditto",
+    "hp": 50,
+    "set_name": "Fossil"
+  },
+  {
+    "id": "xy7-2",
+    "image_url": "https://images.pokemontcg.io/xy7/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Gloom and 80 HP of rarity Uncommon evolved from Oddish from the set Ancient Origins and the flavor text: The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away. It has the attack Drool with the cost Grass, Colorless, the energy cost 2 and the damage of 20. It has weakness against Fire 2. ",
+    "name": "Gloom",
+    "hp": 80,
+    "set_name": "Ancient Origins"
+  },
+  {
+    "id": "sm9-3",
+    "image_url": "https://images.pokemontcg.io/sm9/3_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Weedle and 50 HP of rarity Common from the set Team Up and the flavor text: Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head. It has the attack Reckless Charge with the cost Colorless, the energy cost 1 and the damage of 20 with the description: This Pokemon does 10 damage to itself. It has weakness against Fire 2. ",
+    "name": "Weedle",
+    "hp": 50,
+    "set_name": "Team Up"
+  },
+  {
+    "id": "ex3-3",
+    "image_url": "https://images.pokemontcg.io/ex3/3_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Water with the title Crawdaunt and 80 HP of rarity Rare Holo evolved from Corphish from the set Dragon.  It has the attack Guillotine with the cost Water, Colorless, Colorless, the energy cost 3 and the damage of 50. It has the ability Power Pinchers with the description: As long as Crawdaunt is your Active Pokemon, when any of your Active Pokemon does damage to the Defending Pokemon, the attack does 10 more damage (before applying Weakness and Resistance). It has weakness against Lightning 2. ",
+    "name": "Crawdaunt",
+    "hp": 80,
+    "set_name": "Dragon"
+  },
+  {
+    "id": "gym2-2",
+    "image_url": "https://images.pokemontcg.io/gym2/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Fire with the title Blaine's Charizard and 100 HP of rarity Rare Holo evolved from Blaine's Charmeleon from the set Gym Challenge.  It has the attack Roaring Flames with the cost Fire, the energy cost 1 and the damage of 20+ with the description: Discard all Fire Energy cards attached to Blaine's Charizard. If all Energy cards attached to Blaine's Charizard provide 2 Fire Energy, discard all of them. This attack does 20 damage plus 20 more damage for each Fire Energy discarded in this way. It has the attack Flame Jet with the cost Fire, Fire, the energy cost 2 with the description: Flip a coin. If heads, choose 1 of your opponent's Pokemon. This attack does 40 damage to that Pokemon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.) It has weakness against Water 2. It has resistance against Fighting -30. ",
+    "name": "Blaine's Charizard",
+    "hp": 100,
+    "set_name": "Gym Challenge"
+  },
+  {
+    "id": "ex9-2",
+    "image_url": "https://images.pokemontcg.io/ex9/2_hires.png",
+    "caption": "A Basic Pokemon Card of type Psychic with the title Deoxys and 70 HP of rarity Rare Holo from the set Emerald.  It has the attack Swift with the cost Colorless, Colorless, the energy cost 2 and the damage of 30 with the description: This attack's damage isn't affected by Weakness, Resistance, Poke-Power, Poke-Bodies, or any other effects on the Defending Pokemon. It has the ability Form Change with the description: Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pokemon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poke-Power each turn. It has weakness against Psychic 2. ",
+    "name": "Deoxys",
+    "hp": 70,
+    "set_name": "Emerald"
+  },
+  {
+    "id": "pl1-3",
+    "image_url": "https://images.pokemontcg.io/pl1/3_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Fire with the title Blaziken and 130 HP of rarity Rare Holo evolved from Combusken from the set Platinum.  It has the attack Clutch with the cost Colorless, Colorless, the energy cost 2 and the damage of 40 with the description: The Defending Pokemon can't retreat during your opponent's next turn. It has the attack Fire Spin with the cost Fire, Fire, Colorless, the energy cost 3 and the damage of 100 with the description: Discard 2 Energy attached to Blaziken. It has the ability Fire Breath with the description: Once during your turn (before your attack), you may choose 1 of the Defending Pokemon. That Pokemon is now Burned. This power can't be used if Blaziken is affected by a Special Condition. It has weakness against Water +30. ",
+    "name": "Blaziken",
+    "hp": 130,
+    "set_name": "Platinum"
+  },
+  {
+    "id": "hgss1-3",
+    "image_url": "https://images.pokemontcg.io/hgss1/3_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Colorless with the title Clefable and 80 HP of rarity Rare Holo evolved from Clefairy from the set HeartGold & SoulSilver and the flavor text: With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places. It has the attack Fairy Power with the cost Colorless, Colorless, the energy cost 2 with the description: Return 1 of your Pokemon and all cards attached to it to your hand. It has the attack Moon Impact with the cost Colorless, Colorless, the energy cost 2 and the damage of 40. It has weakness against Fighting 2. ",
+    "name": "Clefable",
+    "hp": 80,
+    "set_name": "HeartGold & SoulSilver"
+  },
+  {
+    "id": "ecard2-H3",
+    "image_url": "https://images.pokemontcg.io/ecard2/H3_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Ariados and 70 HP of rarity Rare Holo evolved from Spinarak from the set Aquapolis.  It has the attack Spider Force with the cost Grass, Colorless, the energy cost 2 and the damage of 20+ with the description: Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, this attack does 20 damage and the defending Pokemon is now Paralyzed. It has the ability Gluey Slime with the description: As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokemon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokemon, even if there is more than 1 Ariados in play. It has weakness against Fire 2. ",
+    "name": "Ariados",
+    "hp": 70,
+    "set_name": "Aquapolis"
+  },
+  {
+    "id": "ex7-3",
+    "image_url": "https://images.pokemontcg.io/ex7/3_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Grass, Darkness with the title Dark Crobat and 90 HP of rarity Rare Holo evolved from Dark Golbat from the set Team Rocket Returns.  It has the attack Dark Drain with the cost Grass, Colorless, the energy cost 2 with the description: Does 10 damage to each of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) Remove from Dark Crobat a number of damage counters equal to the number of your opponent's Pokemon in play. It has the attack Skill Dive with the cost Grass, Colorless, the energy cost 2 with the description: Does 30 damage to 1 of your opponent's Pokemon. (Don't apply Weakness and Resistance for Benched Pokemon.) It has the ability Black Beam with the description: Once during your turn (before your attack), if Dark Crobat is your Active Pokemon, you may choose 1 of the Defending Pokemon. That Pokemon is now Poisoned. This power can't be used if Dark Crobat is affected by a Special Condition. It has weakness against Lightning 2. It has resistance against Fighting -30. ",
+    "name": "Dark Crobat",
+    "hp": 90,
+    "set_name": "Team Rocket Returns"
+  },
+  {
+    "id": "xy5-3",
+    "image_url": "https://images.pokemontcg.io/xy5/3_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Grass with the title Beedrill and 120 HP of rarity Rare evolved from Kakuna from the set Primal Clash and the flavor text: May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear. It has the attack Allergic Shock with the cost Grass, the energy cost 1 with the description: During your next turn, if the Defending Pokemon is damaged by an attack, it is Knocked Out. It has the attack Twineedle with the cost Grass, Grass, the energy cost 2 and the damage of 50 with the description: Flip 2 coins. This attack does 50 damage times the number of heads. It has weakness against Fire 2. ",
+    "name": "Beedrill",
+    "hp": 120,
+    "set_name": "Primal Clash"
+  },
+  {
+    "id": "sm12-2",
+    "image_url": "https://images.pokemontcg.io/sm12/2_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Oddish and 60 HP of rarity Common from the set Cosmic Eclipse and the flavor text: During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight. It has the attack Sweet Scent with the cost Colorless, the energy cost 1 with the description: Heal 30 damage from 1 of your Pokemon. It has weakness against Fire 2. ",
+    "name": "Oddish",
+    "hp": 60,
+    "set_name": "Cosmic Eclipse"
+  },
+  {
+    "id": "ru1-3",
+    "image_url": "https://images.pokemontcg.io/ru1/3_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Fire with the title Ninetales and 90 HP of rarity None evolved from Vulpix from the set Pokemon Rumble.  It has the attack Flame Tail with the cost Fire, Colorless, Colorless, the energy cost 3 and the damage of 60. It has weakness against Water 2. ",
+    "name": "Ninetales",
+    "hp": 90,
+    "set_name": "Pokémon Rumble"
+  },
+  {
+    "id": "ex13-2",
+    "image_url": "https://images.pokemontcg.io/ex13/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Darkness, Metal with the title Cradily  and 100 HP of rarity Rare Holo evolved from Lileep from the set Holon Phantoms.  It has the attack Harsh Fluid with the cost Darkness, Colorless, the energy cost 2 and the damage of 20 with the description: Put 5 damage counters on the Defending Pokemon at the end of your opponent's next turn. It has the attack Poison Tentacles with the cost Metal, Colorless, Colorless, the energy cost 3 and the damage of 50 with the description: The Defending Pokemon is now Poisoned. It has weakness against Fire 2. ",
+    "name": "Cradily δ",
+    "hp": 100,
+    "set_name": "Holon Phantoms"
+  },
+  {
+    "id": "mcd19-3",
+    "image_url": "https://images.pokemontcg.io/mcd19/3_hires.png",
+    "caption": "A Basic Pokemon Card of type Fire with the title Magmar and 80 HP of rarity None from the set McDonald's Collection 2019.  It has the attack Controlled Burn with the cost Fire, the energy cost 1 with the description: Discard the top card of your opponent's deck. It has the attack Flamethrower with the cost Fire, Fire, Colorless, the energy cost 3 and the damage of 80 with the description: Discard an Energy from this Pokemon. ",
+    "name": "Magmar",
+    "hp": 80,
+    "set_name": "McDonald's Collection 2019"
+  },
+  {
+    "id": "col1-2",
+    "image_url": "https://images.pokemontcg.io/col1/2_hires.png",
+    "caption": "A Basic Pokemon Card of type Psychic with the title Deoxys and 80 HP of rarity Rare Holo from the set Call of Legends and the flavor text: DNA from a space virus mutated and became a Pokemon. It appears where auroras are seen. It has the attack Cell Storm with the cost Psychic, Psychic, Psychic, the energy cost 3 and the damage of 60 with the description: Discard 2 Psychic Energy attached to Deoxys and remove 6 damage counters from Deoxys. It has weakness against Psychic 2. ",
+    "name": "Deoxys",
+    "hp": 80,
+    "set_name": "Call of Legends"
+  },
+  {
+    "id": "pop6-3",
+    "image_url": "https://images.pokemontcg.io/pop6/3_hires.png",
+    "caption": "A Basic Pokemon Card of type Water with the title Manaphy and 70 HP of rarity Rare from the set POP Series 6 and the flavor text: Born on a cold seafloor, it will swim great distances to return to its birthplace. It has the attack Call for Family with the cost Colorless, the energy cost 1 with the description: Search your deck for a Basic Pokemon and put it onto your Bench. Shuffle your deck afterward. It has the attack Aqua Ring with the cost Water, Water, the energy cost 2 and the damage of 30 with the description: Switch Manaphy with 1 of your Benched Pokemon. It has weakness against Lightning +20. ",
+    "name": "Manaphy",
+    "hp": 70,
+    "set_name": "POP Series 6"
+  },
+  {
+    "id": "base4-3",
+    "image_url": "https://images.pokemontcg.io/base4/3_hires.png",
+    "caption": "A Basic Pokemon Card of type Colorless with the title Chansey and 120 HP of rarity Rare Holo from the set Base Set 2 and the flavor text: A rare and elusive Pokemon that is said to bring happiness to those who manage to catch it. It has the attack Scrunch with the cost Colorless, Colorless, the energy cost 2 with the description: Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.) It has the attack Double-edge with the cost Colorless, Colorless, Colorless, Colorless, the energy cost 4 and the damage of 80 with the description: Chansey does 80 damage to itself. It has weakness against Fighting 2. It has resistance against Psychic -30. ",
+    "name": "Chansey",
+    "hp": 120,
+    "set_name": "Base Set 2"
+  },
+  {
+    "id": "hgss4-3",
+    "image_url": "https://images.pokemontcg.io/hgss4/3_hires.png",
+    "caption": "A Basic Pokemon Card of type Psychic with the title Celebi and 70 HP of rarity Rare Holo from the set HSTriumphant and the flavor text: This Pokemon wanders across time. Grass and trees flourish in the forests in which it has appeared. It has the attack Future Sight with the cost Psychic, the energy cost 1 with the description: Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order. It has the attack Leaf Bind with the cost Grass, Colorless, the energy cost 2 and the damage of 30 with the description: Flip a coin. If heads, the Defending Pokemon is now Paralyzed. It has weakness against Psychic 2. ",
+    "name": "Celebi",
+    "hp": 70,
+    "set_name": "HS—Triumphant"
+  },
+  {
+    "id": "pop7-2",
+    "image_url": "https://images.pokemontcg.io/pop7/2_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Fighting with the title Gallade and 130 HP of rarity Rare evolved from Kirlia from the set POP Series 7 and the flavor text: A master of courtesy and swordsmanship, it fights using extending swords on it elbows. It has the attack Sonic Blade with the cost Fighting, Colorless, the energy cost 2 with the description: Put damage counters on the Defending Pokemon until it is 50 HP away from being Knocked Out. If you do, your opponent switches the Defending Pokemon with 1 of his or her Benched Pokemon. It has the attack Psychic Cut with the cost Psychic, Colorless, Colorless, the energy cost 3 and the damage of 60+ with the description: You may choose as many of your face-down Prize cards as you like and put them face up. If you do, this attack does 60 damage plus 20 more damage for each Prize card you chose. (These cards remain face up for the rest of the game.) It has weakness against Psychic +30. ",
+    "name": "Gallade",
+    "hp": 130,
+    "set_name": "POP Series 7"
+  },
+  {
+    "id": "xy11-2",
+    "image_url": "https://images.pokemontcg.io/xy11/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Tangrowth and 130 HP of rarity Uncommon evolved from Tangela from the set Steam Siege and the flavor text: Its vines grow so profusely that, in the warm season, you can't even see its eyes. It has the attack Leaf Storm with the cost Grass, Grass, Colorless, the energy cost 3 and the damage of 80 with the description: Heal 40 damage from each of your Grass Pokemon. It has the attack Flog with the cost Grass, Grass, Grass, Colorless, the energy cost 4 and the damage of 110+ with the description: Flip a coin. If heads, this attack does 30 more damage. It has weakness against Fire 2. ",
+    "name": "Tangrowth",
+    "hp": 130,
+    "set_name": "Steam Siege"
+  },
+  {
+    "id": "sm2-1",
+    "image_url": "https://images.pokemontcg.io/sm2/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Bellsprout and 60 HP of rarity Common from the set Guardians Rising and the flavor text: Even though its body is extremely skinny, it is blindingly fast when catching its prey. It has the attack Vine Whip with the cost Grass, Colorless, the energy cost 2 and the damage of 30. It has weakness against Fire 2. ",
+    "name": "Bellsprout",
+    "hp": 60,
+    "set_name": "Guardians Rising"
+  },
+  {
+    "id": "dp3-3",
+    "image_url": "https://images.pokemontcg.io/dp3/3_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Fire with the title Charizard and 130 HP of rarity Rare Holo evolved from Charmeleon from the set Secret Wonders and the flavor text: It is said that CHARIZARD's fire burns hotter if it has experienced harsh battles. It has the attack Blast Burn with the cost Fire, Fire, Fire, Colorless, the energy cost 4 and the damage of 120 with the description: Flip a coin. If heads, discard 2 Energy cards attached to Charizard. If tails, discard 4 Energy cards attached to Charizard. (If you can't, this attack does nothing.) It has the ability Fury Blaze with the description: If your opponent has 3 or less Prize cards left, each of Charizard's attacks does 50 more damage to the Active Pokemon (before applying Weakness and Resistance). It has weakness against Water +40. It has resistance against Fighting -20. ",
+    "name": "Charizard",
+    "hp": 130,
+    "set_name": "Secret Wonders"
+  },
+  {
+    "id": "sm115-2",
+    "image_url": "https://images.pokemontcg.io/sm115/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Metapod and 90 HP of rarity Uncommon evolved from Caterpie from the set Hidden Fates and the flavor text: Its shell is filled with a thick liquid. All of the cells throughout its body are being rebuilt in preparation for evolution. It has the attack Tackle with the cost Grass, Colorless, the energy cost 2 and the damage of 30. It has weakness against Fire 2. ",
+    "name": "Metapod",
+    "hp": 90,
+    "set_name": "Hidden Fates"
+  },
+  {
+    "id": "sm1-2",
+    "image_url": "https://images.pokemontcg.io/sm1/2_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Grass with the title Metapod and 80 HP of rarity Uncommon evolved from Caterpie from the set Sun & Moon and the flavor text: Its shell is filled with its soft innards. It doesn't move much because of the risk it might carelessly spill its innards out. It has the attack Iron Defense with the cost Colorless, the energy cost 1 with the description: Flip a coin. If heads, prevent all damage done to this Pokemon by attacks during your opponent's next turn. It has the attack Bug Bite with the cost Colorless, Colorless, Colorless, the energy cost 3 and the damage of 40. It has weakness against Fire 2. ",
+    "name": "Metapod",
+    "hp": 80,
+    "set_name": "Sun & Moon"
+  },
+  {
+    "id": "gym1-3",
+    "image_url": "https://images.pokemontcg.io/gym1/3_hires.png",
+    "caption": "A Stage 1 Pokemon Card of type Colorless with the title Erika's Clefable and 70 HP of rarity Rare Holo evolved from Erika's Clefairy from the set Gym Heroes.  It has the attack Fairy Power with the cost Colorless, the energy cost 1 with the description: Flip a coin. If heads, you may return any number of your Pokemon in play and all cards attached to them to your hand. It has the attack Moon Impact with the cost Colorless, Colorless, Colorless, the energy cost 3 and the damage of 30. It has weakness against Fighting 2. It has resistance against Psychic -30. ",
+    "name": "Erika's Clefable",
+    "hp": 70,
+    "set_name": "Gym Heroes"
+  },
+  {
+    "id": "hgss2-1",
+    "image_url": "https://images.pokemontcg.io/hgss2/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Psychic with the title Jirachi and 60 HP of rarity Rare Holo from the set HSUnleashed and the flavor text: Generations have believed that any wish written on a note on its head will come true when it awakens. It has the attack Time Hollow with the cost Psychic, the energy cost 1 with the description: Choose a number of your opponent's Stage 1 or Stage 2 Evolved Pokemon up to the amount of Energy attached to Jirachi. Remove the highest Stage Evolution card from each of those Pokemon and put those cards back into your opponent's hand. It has the ability Stardust Song with the description: Once during your turn, when you put Jirachi from your hand onto your Bench, you may flip 3 coins. For each heads, search your discard pile for a Psychic Energy card and attach it to Jirachi. It has weakness against Psychic 2. ",
+    "name": "Jirachi",
+    "hp": 60,
+    "set_name": "HS—Unleashed"
+  },
+  {
+    "id": "pop5-1",
+    "image_url": "https://images.pokemontcg.io/pop5/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Fire with the title Ho-Oh and 80 HP of rarity Rare from the set POP Series 5.  It has the attack Fire Wing with the cost Fire, Colorless, the energy cost 2 and the damage of 20. It has the attack Fire Blast with the cost Fire, Fire, Fire, Colorless, the energy cost 4 and the damage of 60 with the description: Discard a Fire Energy attached to Ho-Oh. It has weakness against Water 2. ",
+    "name": "Ho-Oh",
+    "hp": 80,
+    "set_name": "POP Series 5"
+  },
+  {
+    "id": "bw5-1",
+    "image_url": "https://images.pokemontcg.io/bw5/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Bulbasaur and 60 HP of rarity Common from the set Dark Explorers and the flavor text: For some time after its birth, it grows by gaining nourishment from the seed on its back. It has the attack Tackle with the cost Grass, the energy cost 1 and the damage of 10. It has the attack Razor Leaf with the cost Grass, Colorless, Colorless, the energy cost 3 and the damage of 30. It has weakness against Fire 2. It has resistance against Water -20. ",
+    "name": "Bulbasaur",
+    "hp": 60,
+    "set_name": "Dark Explorers"
+  },
+  {
+    "id": "neo4-1",
+    "image_url": "https://images.pokemontcg.io/neo4/1_hires.png",
+    "caption": "A Stage 2 Pokemon Card of type Lightning with the title Dark Ampharos and 70 HP of rarity Rare Holo evolved from Dark Flaaffy from the set Neo Destiny and the flavor text: Its brightly lit tail can be seen for miles in the dark, even by ships on the sea. It has the attack Shock Bolt with the cost Lightning, Colorless, Colorless, the energy cost 3 and the damage of 50 with the description: Discard all Lightning Energy cards attached to Dark Ampharos or this attack does nothing. It has the ability Conductivity with the description: Whenever your opponent attaches an Energy card from his or her hand to a Pokemon, this power does 10 damage to that Pokemon. (Don't apply Weakness and Resistance.) This power stops working if you have more than 1 Dark Ampharos in play or while Dark Ampharos is Asleep, Confused, or Paralyzed. It has weakness against Fighting 2. ",
+    "name": "Dark Ampharos",
+    "hp": 70,
+    "set_name": "Neo Destiny"
+  },
+  {
+    "id": "sm8-1",
+    "image_url": "https://images.pokemontcg.io/sm8/1_hires.png",
+    "caption": "A Basic Pokemon Card of type Grass with the title Tangela and 80 HP of rarity Common from the set Lost Thunder and the flavor text: It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared. It has the attack Gentle Slap with the cost Colorless, Colorless, the energy cost 2 and the damage of 20. It has the attack Bind with the cost Grass, Colorless, Colorless, the energy cost 3 and the damage of 40 with the description: Flip a coin. If heads, your opponent's Active Pokemon is now Paralyzed. It has weakness against Fire 2. ",
+    "name": "Tangela",
+    "hp": 80,
+    "set_name": "Lost Thunder"
+  }
+]
