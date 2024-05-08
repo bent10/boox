@@ -1,0 +1,69 @@
+{
+  "name": "boox-workspace",
+  "description": "Effortless full-text search for your applications",
+  "version": "0.0.0-development",
+  "private": true,
+  "author": "Beni Arisandi (https://stilearning.com)",
+  "repository": "https://github.com/bent10/boox",
+  "homepage": "https://stilearning.com/boox",
+  "bugs": "https://github.com/bent10/boox/issues",
+  "license": "MIT",
+  "keywords": [
+    "distance",
+    "document-engine",
+    "fulltext-search",
+    "full-text-search",
+    "fuzzy",
+    "fuzzy-matching",
+    "fuzzy-search",
+    "idf",
+    "instantsearch",
+    "inverse-document-frequency",
+    "inverted-index",
+    "nlp",
+    "search",
+    "search-engine",
+    "term-frequency",
+    "tf",
+    "tfidf",
+    "tf-idf",
+    "vector-space-model",
+    "vsm"
+  ],
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "start": "npm start --w boox-site",
+    "preview": "npm run preview --w boox-site",
+    "prebuild:doc": "npm run train -w boox-site",
+    "build:doc": "npm run build -w boox-site",
+    "build:examples": "npm run build -w examples-vanilla -w examples-react -w examples-vue -w examples-svelte -w examples-nextjs",
+    "build": "npm run build -w boox",
+    "types": "npm run types -w boox",
+    "lint": "npm run lint -w boox",
+    "test": "npm test -w boox",
+    "coverage": "npm run coverage -w boox",
+    "format": "npm run format --workspaces --if-present"
+  },
+  "devDependencies": {
+    "batch-me-up": "^1.0.0",
+    "doogu": "^3.2.13",
+    "vite-plugin-cachedir": "^1.2.0",
+    "vite-plugin-resolve-umd-format": "^1.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/doogu/eslint"
+  },
+  "prettier": "doogu/prettier.json",
+  "release": {
+    "extends": "doogu/release.config.js"
+  }
+}

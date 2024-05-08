@@ -1,0 +1,96 @@
+{
+  "configs": {
+    "id": "id",
+    "features": ["title", "content"],
+    "attributes": ["url"]
+  },
+  "documents": {
+    "1": {
+      "id": "1",
+      "attributes": {
+        "title": "Document 1",
+        "content": "Lorem ipsum dolor sit amet.",
+        "url": "/foo"
+      },
+      "magnitude": 0.8366600265340757
+    },
+    "2": {
+      "id": "2",
+      "attributes": {
+        "title": "Document 2",
+        "content": "Consectetur adipiscing elit.",
+        "url": "/bar"
+      },
+      "magnitude": 0.9128709291752769
+    },
+    "3": {
+      "id": "3",
+      "attributes": {
+        "title": "Document 3",
+        "content": "Sed do eiusmod tempor incididunt.",
+        "url": "/baz"
+      },
+      "magnitude": 0.8366600265340757
+    }
+  },
+  "features": {
+    "title": {
+      "1": {
+        "1": 0.5
+      },
+      "2": {
+        "2": 0.5
+      },
+      "3": {
+        "3": 0.5
+      },
+      "Document": {
+        "1": 0.5,
+        "2": 0.5,
+        "3": 0.5
+      }
+    },
+    "content": {
+      "Lorem": {
+        "1": 0.2
+      },
+      "ipsum": {
+        "1": 0.2
+      },
+      "dolor": {
+        "1": 0.2
+      },
+      "sit": {
+        "1": 0.2
+      },
+      "amet": {
+        "1": 0.2
+      },
+      "Consectetur": {
+        "2": 0.3333333333333333
+      },
+      "adipiscing": {
+        "2": 0.3333333333333333
+      },
+      "elit": {
+        "2": 0.3333333333333333
+      },
+      "Sed": {
+        "3": 0.2
+      },
+      "do": {
+        "3": 0.2
+      },
+      "eiusmod": {
+        "3": 0.2
+      },
+      "tempor": {
+        "3": 0.2
+      },
+      "incididunt": {
+        "3": 0.2
+      }
+    }
+  },
+  "popularSearches": {}
+}

@@ -1,0 +1,331 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Boox > should add a document to the index 1`] = `
+{
+  "attributes": {
+    "content": "Lorem ipsum dolor sit amet.",
+    "title": "Document 1",
+    "url": "/foo",
+  },
+  "id": "1",
+  "magnitude": 0.8366600265340757,
+}
+`;
+
+exports[`Boox > should add a document to the index synchronously 1`] = `
+{
+  "attributes": {
+    "content": "Lorem ipsum dolor sit amet.",
+    "title": "Document 1",
+    "url": "/foo",
+  },
+  "id": "1",
+  "magnitude": 0.8366600265340757,
+}
+`;
+
+exports[`Boox > should add multiple documents to the index 1`] = `
+{
+  "attributes": {
+    "content": "Lorem ipsum dolor sit amet.",
+    "title": "Document 1",
+    "url": "/foo",
+  },
+  "id": "1",
+  "magnitude": 0.8366600265340757,
+}
+`;
+
+exports[`Boox > should add multiple documents to the index 2`] = `
+{
+  "attributes": {
+    "content": "Consectetur adipiscing elit.",
+    "title": "Document 2",
+    "url": "/bar",
+  },
+  "id": "2",
+  "magnitude": 0.9128709291752769,
+}
+`;
+
+exports[`Boox > should add multiple documents to the index 3`] = `
+{
+  "attributes": {
+    "content": "Sed do eiusmod tempor incididunt.",
+    "title": "Document 3",
+    "url": "/baz",
+  },
+  "id": "3",
+  "magnitude": 0.8366600265340757,
+}
+`;
+
+exports[`Boox > should add multiple documents to the index synchronously 1`] = `
+{
+  "attributes": {
+    "content": "Lorem ipsum dolor sit amet.",
+    "title": "Document 1",
+    "url": "/foo",
+  },
+  "id": "1",
+  "magnitude": 0.8366600265340757,
+}
+`;
+
+exports[`Boox > should add multiple documents to the index synchronously 2`] = `
+{
+  "attributes": {
+    "content": "Consectetur adipiscing elit.",
+    "title": "Document 2",
+    "url": "/bar",
+  },
+  "id": "2",
+  "magnitude": 0.9128709291752769,
+}
+`;
+
+exports[`Boox > should add multiple documents to the index synchronously 3`] = `
+{
+  "attributes": {
+    "content": "Sed do eiusmod tempor incididunt.",
+    "title": "Document 3",
+    "url": "/baz",
+  },
+  "id": "3",
+  "magnitude": 0.8366600265340757,
+}
+`;
+
+exports[`Boox > should handle searching with advanced similarity scoring 1`] = `
+[
+  SearchResult {
+    "attributes": {
+      "content": "Lorem ipsum dolor sit amet.",
+      "title": "Document 1",
+      "url": "/foo",
+    },
+    "highlightTag": [
+      "<mark class="search-highlight">",
+      "</mark>",
+    ],
+    "id": "1",
+    "magnitude": 0.8366600265340757,
+    "query": "document",
+    "score": 0.5342384456611643,
+    "vector": null,
+  },
+  SearchResult {
+    "attributes": {
+      "content": "Consectetur adipiscing elit.",
+      "title": "Document 2",
+      "url": "/bar",
+    },
+    "highlightTag": [
+      "<mark class="search-highlight">",
+      "</mark>",
+    ],
+    "id": "2",
+    "magnitude": 0.9128709291752769,
+    "query": "document",
+    "score": 0.5342384456611643,
+    "vector": null,
+  },
+  SearchResult {
+    "attributes": {
+      "content": "Sed do eiusmod tempor incididunt.",
+      "title": "Document 3",
+      "url": "/baz",
+    },
+    "highlightTag": [
+      "<mark class="search-highlight">",
+      "</mark>",
+    ],
+    "id": "3",
+    "magnitude": 0.8366600265340757,
+    "query": "document",
+    "score": 0.5342384456611643,
+    "vector": null,
+  },
+]
+`;
+
+exports[`Boox > should handle searching with advanced similarity scoring synchronously 1`] = `
+[
+  SearchResult {
+    "attributes": {
+      "content": "Lorem ipsum dolor sit amet.",
+      "title": "Document 1",
+      "url": "/foo",
+    },
+    "highlightTag": [
+      "<mark class="search-highlight">",
+      "</mark>",
+    ],
+    "id": "1",
+    "magnitude": 0.8366600265340757,
+    "query": "document",
+    "score": 0.5342384456611643,
+    "vector": null,
+  },
+  SearchResult {
+    "attributes": {
+      "content": "Consectetur adipiscing elit.",
+      "title": "Document 2",
+      "url": "/bar",
+    },
+    "highlightTag": [
+      "<mark class="search-highlight">",
+      "</mark>",
+    ],
+    "id": "2",
+    "magnitude": 0.9128709291752769,
+    "query": "document",
+    "score": 0.5342384456611643,
+    "vector": null,
+  },
+  SearchResult {
+    "attributes": {
+      "content": "Sed do eiusmod tempor incididunt.",
+      "title": "Document 3",
+      "url": "/baz",
+    },
+    "highlightTag": [
+      "<mark class="search-highlight">",
+      "</mark>",
+    ],
+    "id": "3",
+    "magnitude": 0.8366600265340757,
+    "query": "document",
+    "score": 0.5342384456611643,
+    "vector": null,
+  },
+]
+`;
+
+exports[`Boox > should retrieve the current state of the Boox instance 1`] = `
+{
+  "configs": {
+    "attributes": [
+      "url",
+    ],
+    "features": [
+      "title",
+      "content",
+    ],
+    "id": "id",
+  },
+  "documents": {
+    "1": {
+      "attributes": {
+        "content": "Lorem ipsum dolor sit amet.",
+        "title": "Document 1",
+        "url": "/foo",
+      },
+      "id": "1",
+      "magnitude": 0.8366600265340757,
+    },
+    "2": {
+      "attributes": {
+        "content": "Consectetur adipiscing elit.",
+        "title": "Document 2",
+        "url": "/bar",
+      },
+      "id": "2",
+      "magnitude": 0.9128709291752769,
+    },
+    "3": {
+      "attributes": {
+        "content": "Sed do eiusmod tempor incididunt.",
+        "title": "Document 3",
+        "url": "/baz",
+      },
+      "id": "3",
+      "magnitude": 0.8366600265340757,
+    },
+  },
+  "features": {
+    "content": {
+      "adipiscing": {
+        "2": 0.3333333333333333,
+      },
+      "amet": {
+        "1": 0.2,
+      },
+      "consectetur": {
+        "2": 0.3333333333333333,
+      },
+      "do": {
+        "3": 0.2,
+      },
+      "dolor": {
+        "1": 0.2,
+      },
+      "eiusmod": {
+        "3": 0.2,
+      },
+      "elit": {
+        "2": 0.3333333333333333,
+      },
+      "incididunt": {
+        "3": 0.2,
+      },
+      "ipsum": {
+        "1": 0.2,
+      },
+      "lorem": {
+        "1": 0.2,
+      },
+      "sed": {
+        "3": 0.2,
+      },
+      "sit": {
+        "1": 0.2,
+      },
+      "tempor": {
+        "3": 0.2,
+      },
+    },
+    "title": {
+      "1": {
+        "1": 0.5,
+      },
+      "2": {
+        "2": 0.5,
+      },
+      "3": {
+        "3": 0.5,
+      },
+      "document": {
+        "1": 0.5,
+        "2": 0.5,
+        "3": 0.5,
+      },
+    },
+  },
+  "popularSearches": {},
+}
+`;
+
+exports[`Boox > should update an existing document in the index 1`] = `
+{
+  "attributes": {
+    "content": "Updated content.",
+    "title": "Updated Document Title",
+    "url": "/foo",
+  },
+  "id": "1",
+  "magnitude": 0.9128709291752768,
+}
+`;
+
+exports[`Boox > should update an existing document in the index synchronously 1`] = `
+{
+  "attributes": {
+    "content": "Updated content.",
+    "title": "Updated Document Title",
+    "url": "/foo",
+  },
+  "id": "1",
+  "magnitude": 0.9128709291752768,
+}
+`;

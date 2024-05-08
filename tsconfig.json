@@ -1,0 +1,5 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+
+  "include": ["vitest.workspace.ts"]
+}

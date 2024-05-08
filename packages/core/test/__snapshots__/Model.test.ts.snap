@@ -1,0 +1,167 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Model > should normalize attribute value array 1`] = `
+{
+  "content": {
+    "a": {
+      "1": 0.16666666666666666,
+    },
+    "bar": {
+      "1": 0.16666666666666666,
+    },
+    "document": {
+      "1": 0.16666666666666666,
+    },
+    "foo": {
+      "1": 0.16666666666666666,
+    },
+    "is": {
+      "1": 0.16666666666666666,
+    },
+    "this": {
+      "1": 0.16666666666666666,
+    },
+  },
+  "tags": {
+    "bar": {
+      "1": 0.5,
+    },
+    "foo": {
+      "1": 0.5,
+    },
+  },
+  "title": {
+    "bar": {
+      "1": 0.5,
+    },
+    "foo": {
+      "1": 0.5,
+    },
+  },
+}
+`;
+
+exports[`Model > should normalize attribute value array 2`] = `
+{
+  "1": {
+    "attributes": {
+      "content": "This is a foo bar document.",
+      "tags": [
+        "foo",
+        "bar",
+      ],
+      "title": "Foo Bar",
+    },
+    "id": "1",
+    "magnitude": 1.0801234497346435,
+  },
+}
+`;
+
+exports[`Model > should resolve unsupported feature format 1`] = `
+{
+  "content": {
+    "a": {
+      "1": 0.16666666666666666,
+    },
+    "bar": {
+      "1": 0.16666666666666666,
+    },
+    "document": {
+      "1": 0.16666666666666666,
+    },
+    "foo": {
+      "1": 0.16666666666666666,
+    },
+    "is": {
+      "1": 0.16666666666666666,
+    },
+    "this": {
+      "1": 0.16666666666666666,
+    },
+  },
+  "qux": {},
+  "tags": {
+    "bar": {
+      "1": 0.5,
+    },
+    "foo": {
+      "1": 0.5,
+    },
+  },
+  "title": {
+    "bar": {
+      "1": 0.5,
+    },
+    "foo": {
+      "1": 0.5,
+    },
+  },
+}
+`;
+
+exports[`Model > should resolve unsupported feature format 2`] = `
+{
+  "1": {
+    "attributes": {
+      "content": "This is a foo bar document.",
+      "qux": {
+        "qux": "",
+      },
+      "tags": [
+        "foo",
+        "bar",
+      ],
+      "title": "Foo Bar",
+    },
+    "id": "1",
+    "magnitude": 1.0801234497346435,
+  },
+}
+`;
+
+exports[`Model > should train the model with the provided document 1`] = `
+{
+  "content": {
+    "a": {
+      "1": 0.16666666666666666,
+    },
+    "bar": {
+      "1": 0.16666666666666666,
+    },
+    "document": {
+      "1": 0.16666666666666666,
+    },
+    "foo": {
+      "1": 0.16666666666666666,
+    },
+    "is": {
+      "1": 0.16666666666666666,
+    },
+    "this": {
+      "1": 0.16666666666666666,
+    },
+  },
+  "title": {
+    "bar": {
+      "1": 0.5,
+    },
+    "foo": {
+      "1": 0.5,
+    },
+  },
+}
+`;
+
+exports[`Model > should train the model with the provided document 2`] = `
+{
+  "1": {
+    "attributes": {
+      "content": "This is a foo bar document.",
+      "title": "Foo Bar",
+    },
+    "id": "1",
+    "magnitude": 0.816496580927726,
+  },
+}
+`;
