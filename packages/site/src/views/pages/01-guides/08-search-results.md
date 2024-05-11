@@ -77,22 +77,57 @@ const suggestions = boox.getSearchSuggestions('web', { threshold: 2 })
 The `getSearchSuggestions` method takes two arguments:
 
 - `queryPrefix`: The prefix of the search query entered by the user.
-- `options` (optional): An object containing options for retrieving search suggestions (see the `SearchSuggestionsOptions` interface in the [configs reference](/configurations.html#searchsuggestionsoptions-interface)).
+- `options` (optional): An object containing options for retrieving search suggestions (see the [`SearchSuggestionsOptions`](./configuration.html#searchsuggestionsoptions)).
 
-## Pagination and filtering
+## Filtering
 
-Boox provides a static method called `paginateSearchResults` to help you paginate search results:
+While Boox doesn't provide built-in filtering methods, you have full control over the results. You can implement your own filtering logic based on:
+
+- Document Attributes: Filter results based on values in the `attributes` property of each `SearchResult`. For example, filter products by price range or articles by publication date.
+- Relevance Score: Use the `score` property to filter out less relevant results. This is useful when you want to show only the most relevant matches.
+
+Here's a simple example of filtering by an attribute:
 
 ```js
-const paginatedResults = Boox.paginateSearchResults(results, 2, 10)
+const filteredResults = results.filter(
+  result => result.attributes.category === 'electronics'
+)
 ```
 
-The `paginateSearchResults` method takes three arguments:
+## Pagination
 
-- `results`: The array of search results to paginate.
-- `page`: The current page number.
-- `resultsPerPage`: The number of results per page.
+When dealing with large sets of search results, presenting them all at once can overwhelm users and impact performance. Boox offers a static method, `paginateSearchResults`, to easily divide your results into manageable pages:
 
-It returns an object containing the paginated results, total results, total pages, and current page number.
+```js
+const filteredResults = results.filter(
+  result => result.attributes.category === 'electronics'
+)
 
-You can implement your own filtering logic to filter search results based on specific criteria. For example, you might want to filter results based on document attributes or relevance scores.
+const paginatedResults = Boox.paginateSearchResults(filteredResults, 2, 10)
+```
+
+Let's break down the arguments:
+
+- `results`: The array of `SearchResult` objects returned by your `boox.search()` call.
+- `page`: The desired page number (starting from 1). Here, we're requesting page 2.
+- `resultsPerPage`: The number of results to display on each page. Here, we're showing 10 results per page.
+
+The `paginateSearchResults` method returns a `SearchResultWithPagination` object, which not only contains the results for the requested page but also helpful metadata:
+
+```js
+{
+  currentPage: 2,        // The current page number
+  totalPages: 5,         // Total number of pages based on results and resultsPerPage
+  totalResults: 48,      // Total number of search results
+  results: [...],        // Array of SearchResult objects for the current page
+  goTo: (index) => {...} // Function to navigate to other pages
+}
+```
+
+The `goTo` function allows for easy navigation:
+
+```js
+paginatedResults.goTo(3) // Go to page 3
+paginatedResults.goTo('next') // Go to the next page
+paginatedResults.goTo('first') // Go to the first page
+```
