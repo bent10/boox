@@ -1,6 +1,5 @@
 ---
 title: Integration with Next.js
-isLastPage: true
 ---
 
 # Next.js
