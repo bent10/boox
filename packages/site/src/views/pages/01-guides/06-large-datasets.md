@@ -65,13 +65,3 @@ When performing searches on large datasets, consider using the following options
 - `matchingCoefficient`: Define a custom matching coefficient function to prioritize documents based on specific criteria.
 
 Please explore the [advanced search](./advanced-search.html) for further details.
-
-## Memory management
-
-If you're working with very large datasets in Node.js, you might need to increase the memory limit for your Node.js process. You can do this using the `--max-old-space-size` flag when running your Node.js script:
-
-```bash
-node --max-old-space-size=8192m your-script.js
-```
-
-By following these strategies, you can effectively handle large datasets with Boox and achieve optimal search performance.
