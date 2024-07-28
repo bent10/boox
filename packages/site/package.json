@@ -52,7 +52,7 @@
     "moo": "^0.5.2",
     "posthtml": "^0.16.6",
     "posthtml-bootstrap": "^1.0.3",
-    "posthtml-component": "^1.1.1",
+    "posthtml-component": "^2.0.0",
     "posthtml-extend": "^0.6.5",
     "sass": "^1.76.0",
     "shiki": "^1.4.0",
