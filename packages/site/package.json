@@ -43,7 +43,7 @@
     "double-metaphone": "^2.0.1",
     "fastest-levenshtein": "^1.0.16",
     "github-slugger": "^2.0.0",
-    "marked": "^13.0.0",
+    "marked": "^14.0.0",
     "marked-alert": "^2.0.1",
     "marked-directive": "^1.0.5",
     "marked-plaintify": "^1.0.1",
