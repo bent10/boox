@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 /// <reference types="vitest/globals" />
 
 import { readFile, unlink } from 'node:fs/promises'
