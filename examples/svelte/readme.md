@@ -24,7 +24,7 @@ npm i && npm i -D -w examples-svelte boox debounce metaphone stemmer stopword @t
 npm run dev -w examples-svelte
 ```
 
-Open [http://localhost:5174](http://localhost:5174/boox/demo/svelte) in your browser to see the search app in action.
+Open [http://localhost:5173](http://localhost:5173/boox/demo/svelte) in your browser to see the search app in action.
 
 **2. Build for Production:**
 

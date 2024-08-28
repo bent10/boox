@@ -12,6 +12,6 @@
     "metaphone": "^2.0.1",
     "pako": "^2.1.0",
     "stemmer": "^2.0.1",
-    "stopword": "^3.0.1"
+    "stopword": "^3.1.1"
   }
 }
