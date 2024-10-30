@@ -1,3 +1,10 @@
+## boox-cli [1.0.2](https://github.com/bent10/boox/compare/boox-cli@1.0.1...boox-cli@1.0.2) (2024-10-30)
+
+
+### Bug Fixes
+
+* **deps:** bump `rcfy` to `v2.1.1` ([130b67a](https://github.com/bent10/boox/commit/130b67a036776116fc390db8e31c19aad1dd65fe))
+
 ## boox-cli [1.0.1](https://github.com/bent10/boox/compare/boox-cli@1.0.0...boox-cli@1.0.1) (2024-08-28)
 
 
