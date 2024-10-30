@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "boox": "^1.0.0",
-    "express": "^4.19.2",
+    "express": "^4.21.1",
     "metaphone": "^2.0.1",
     "pako": "^2.1.0",
     "stemmer": "^2.0.1",

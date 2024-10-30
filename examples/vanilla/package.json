@@ -11,11 +11,11 @@
   "devDependencies": {
     "@types/stopword": "^2.0.3",
     "boox": "^1.0.0",
-    "debounce": "^2.1.0",
+    "debounce": "^2.2.0",
     "metaphone": "^2.0.1",
     "stemmer": "^2.0.1",
     "stopword": "^3.1.1",
-    "typescript": "^5.5.4",
-    "vite": "^5.4.2"
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
   }
 }

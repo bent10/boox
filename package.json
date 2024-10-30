@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "batch-me-up": "^1.0.1",
-    "doogu": "^4.0.4",
+    "doogu": "^4.1.2",
     "vite-plugin-cachedir": "^1.2.0",
     "vite-plugin-resolve-umd-format": "^1.0.0"
   },
