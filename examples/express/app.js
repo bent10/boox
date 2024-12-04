@@ -8,6 +8,7 @@ import express from 'express'
 import { ungzip } from 'pako'
 import defineBooxConfig from './boox.config.js'
 
+// eslint-disable-next-line no-undef
 const PORT = process.env.PORT || 3000
 
 /** @type {Boox<Pokemon>} */
@@ -47,5 +48,6 @@ app.get('/search', async (req, res) => {
 })
 
 app.listen(PORT, () => {
+  // eslint-disable-next-line no-undef
   console.log(`Server is running on http://localhost:${PORT}`)
 })

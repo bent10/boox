@@ -46,15 +46,11 @@ const boox = new Boox<Pokemon>({
  * @returns A promise that resolves to an array of Pokemon objects.
  */
 async function fetchData(): Promise<Pokemon[]> {
-  try {
-    const response = await fetch(
-      'https://stilearning.com/boox/demo/datasets/pokemon-100r.json',
-      { cache: 'default' }
-    )
-    return await response.json()
-  } catch (error) {
-    throw error
-  }
+  const response = await fetch(
+    'https://stilearning.com/boox/demo/datasets/pokemon-100r.json',
+    { cache: 'default' }
+  )
+  return await response.json()
 }
 
 fetchData().then(async pokemons => {
