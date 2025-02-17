@@ -55,7 +55,7 @@
     "posthtml-component": "^2.0.0",
     "posthtml-extend": "^0.6.5",
     "sass": "^1.80.5",
-    "shiki": "^1.22.2",
+    "shiki": "^2.0.0",
     "stemmer": "^2.0.1",
     "stophtml": "^1.0.3",
     "stopword": "^3.1.1",
