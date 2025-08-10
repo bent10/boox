@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "boox": "^1.0.0",
-    "commander": "^13.0.0",
+    "commander": "^14.0.0",
     "ora": "^8.1.0",
     "pako": "^2.1.0",
     "rcfy": "^2.1.1"
