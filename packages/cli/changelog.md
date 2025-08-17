@@ -1,3 +1,11 @@
+## boox-cli [1.0.3](https://github.com/bent10/boox/compare/boox-cli@1.0.2...boox-cli@1.0.3) (2025-08-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commander to v13 ([4ea5c92](https://github.com/bent10/boox/commit/4ea5c9236b071771bd0bc06efb651ab508eea1dc))
+* **deps:** update dependency commander to v14 ([6125146](https://github.com/bent10/boox/commit/61251464ae6cacbc2444656afa30524d60a59b7d))
+
 ## boox-cli [1.0.2](https://github.com/bent10/boox/compare/boox-cli@1.0.1...boox-cli@1.0.2) (2024-10-30)
 
 
