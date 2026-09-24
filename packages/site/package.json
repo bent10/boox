@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@headless-route/vite": "^2.0.2",
-    "@testing-library/jest-dom": "^6.6.2",
+    "@testing-library/jest-dom": "^7.0.0",
     "@types/bootstrap": "^5.2.10",
     "@types/moo": "^0.5.9",
     "@types/stopword": "^2.0.3",
