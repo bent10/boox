@@ -40,10 +40,10 @@
     "boox": "^1.0.0",
     "commander": "^14.0.0",
     "ora": "^8.1.0",
-    "pako": "^2.1.0",
+    "pako": "^3.0.0",
     "rcfy": "^2.1.1"
   },
   "devDependencies": {
-    "@types/pako": "^2.0.3"
+    "@types/pako": "^3.0.0"
   }
 }
